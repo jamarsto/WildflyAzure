@@ -34,18 +34,12 @@
       <param-name>AllowHTTP</param-name>
       <param-value>true</param-value>
     </init-param>
-    <init-param>
-      <param-name>CertificatePath</param-name>
-      <param-value>${env.HOME}/site/wwwroot/jamarsto.cer</param-value>
-    </init-param>
   </filter>
   <filter-mapping>
     <filter-name>ACSAuthFilter</filter-name>
     <url-pattern>/*</url-pattern>
   </filter-mapping>
   <listener>
-    <description>Spring Context Loader Listener</description>
-    <display-name>SpringContextLoaderListener</display-name>
     <listener-class>
       org.springframework.web.context.ContextLoaderListener
     </listener-class>
@@ -62,8 +56,4 @@
   <welcome-file-list>
     <welcome-file>index.xhtml</welcome-file>
   </welcome-file-list>
-  <filter-mapping>
-    <filter-name>ACSAuthFilter</filter-name>
-    <url-pattern>/*</url-pattern>
-  </filter-mapping>
 </web-app>

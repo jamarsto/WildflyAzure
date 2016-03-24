@@ -15,7 +15,6 @@
     <filter-name>springSessionRepositoryFilter</filter-name>
     <url-pattern>/*</url-pattern>
   </filter-mapping>
-<!--
   <filter>
     <filter-name>ACSAuthFilter</filter-name>
     <filter-class>com.microsoftopentechnologies.acs.federation.ACSFederationAuthFilter</filter-class>
@@ -29,18 +28,21 @@
     </init-param>
     <init-param>
       <param-name>SecretKey</param-name>
-      <param-value>kn+drTEo0jKs6un9BSAKxA==</param-value>
+      <param-value>ZZ2HjP7sEZ0Q8MCRkEzZdA==</param-value>
     </init-param>
     <init-param>
       <param-name>AllowHTTP</param-name>
       <param-value>true</param-value>
+    </init-param>
+  <init-param>
+      <param-name>CertificatePath</param-name>
+      <param-value>%HOME%\site\wwwroot\jamarsto.cer</param-value>
     </init-param>
   </filter>
   <filter-mapping>
     <filter-name>ACSAuthFilter</filter-name>
     <url-pattern>/*</url-pattern>
   </filter-mapping>
--->
   <listener>
     <description>Spring Context Loader Listener</description>
     <display-name>SpringContextLoaderListener</display-name>
@@ -60,4 +62,8 @@
   <welcome-file-list>
     <welcome-file>index.xhtml</welcome-file>
   </welcome-file-list>
+<filter-mapping>
+    <filter-name>ACSAuthFilter</filter-name>
+    <url-pattern>/*</url-pattern>
+  </filter-mapping>
 </web-app>

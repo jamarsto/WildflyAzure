@@ -36,7 +36,7 @@
     </init-param>
     <init-param>
       <param-name>CertificatePath</param-name>
-      <param-value>D:/home/site/wwwroot/jamarsto.cer</param-value>
+      <param-value>${env.HOME}/site/wwwroot/jamarsto.cer</param-value>
     </init-param>
   </filter>
   <filter-mapping>

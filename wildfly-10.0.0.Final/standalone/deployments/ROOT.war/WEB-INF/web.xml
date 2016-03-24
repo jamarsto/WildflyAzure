@@ -24,7 +24,7 @@
     </init-param>
     <init-param>
       <param-name>RelyingPartRealm</param-name>
-      <param-value>http://jm-java.azurewebsites.net</param-value>
+      <param-value>http://jm-java.azurewebsites.net:80</param-value>
     </init-param>
     <init-param>
       <param-name>SecretKey</param-name>

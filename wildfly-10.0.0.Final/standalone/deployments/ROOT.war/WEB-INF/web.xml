@@ -15,6 +15,7 @@
     <filter-name>springSessionRepositoryFilter</filter-name>
     <url-pattern>/*</url-pattern>
   </filter-mapping>
+<!--
   <filter>
     <filter-name>ACSAuthFilter</filter-name>
     <filter-class>com.microsoftopentechnologies.acs.federation.ACSFederationAuthFilter</filter-class>
@@ -39,6 +40,7 @@
     <filter-name>ACSAuthFilter</filter-name>
     <url-pattern>/*</url-pattern>
   </filter-mapping>
+-->
   <listener>
     <listener-class>
       org.springframework.web.context.ContextLoaderListener

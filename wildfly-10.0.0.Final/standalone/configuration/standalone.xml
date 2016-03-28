@@ -372,7 +372,9 @@
             <buffer-cache name="default"/>
             <server name="default-server">
                 <http-listener name="default" socket-binding="http" />
-                <host name="default-host" alias="localhost"/>
+                <host name="default-host" alias="localhost">
+<location name="/" handler="welcome-content" />
+</host>
             </server>
             <servlet-container name="default">
                 <jsp-config/>

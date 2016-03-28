@@ -372,8 +372,7 @@
             <buffer-cache name="default"/>
             <server name="default-server">
                 <http-listener name="default" socket-binding="http" />
-                <host name="default-host" alias="localhost" default-response-code="502"/>
-                <host name="default-host2" alias="127.0.0.1" default-response-code="502"/>
+                <host name="default-host" alias="localhost"/>
             </server>
             <servlet-container name="default">
                 <jsp-config/>

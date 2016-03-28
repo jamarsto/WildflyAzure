@@ -371,8 +371,8 @@
         <subsystem xmlns="urn:jboss:domain:undertow:3.0">
             <buffer-cache name="default"/>
             <server name="default-server">
-                <http-listener name="default" socket-binding="http" redirect-socket="https"/>
-                <host name="default-host" alias="localhost" default-web-module="ROOT.war" />
+                <http-listener name="default" socket-binding="http" />
+                <host name="default-host" alias="localhost" default-web-module="ROOT.war" default-response-code="503"/>
             </server>
             <servlet-container name="default">
                 <jsp-config/>

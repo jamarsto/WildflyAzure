@@ -372,7 +372,7 @@
             <buffer-cache name="default"/>
             <server name="default-server">
                 <http-listener name="default" socket-binding="http" />
-                <host name="default-host" alias="localhost" default-web-module="ROOT.war" default-response-code="503"/>
+                <host name="default-host" alias="localhost" default-response-code="503"/>
             </server>
             <servlet-container name="default">
                 <jsp-config/>

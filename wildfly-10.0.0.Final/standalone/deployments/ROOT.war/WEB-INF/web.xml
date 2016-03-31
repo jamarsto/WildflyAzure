@@ -38,6 +38,8 @@
   <filter-mapping>
   	<filter-name>b2cAuthenticationFilter</filter-name>
   	<url-pattern>/*</url-pattern>
+  	<dispatcher>REQUEST</dispatcher>
+    <dispatcher>FORWARD</dispatcher>
   </filter-mapping>
   <filter>
     <filter-name>springSessionRepositoryFilter</filter-name>

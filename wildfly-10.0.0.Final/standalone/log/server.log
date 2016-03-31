@@ -507,3 +507,52 @@
 2016-03-31 17:41:12,170 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
 2016-03-31 17:41:12,170 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
 2016-03-31 17:41:12,171 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 10.0.0.Final (WildFly Core 2.0.10.Final) started in 11014ms - Started 450 of 719 services (384 services are lazy, passive or on-demand)
+2016-03-31 17:51:18,143 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 65) WFLYUT0022: Unregistered web context: /
+2016-03-31 17:51:18,151 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 65) Closing Spring root WebApplicationContext
+2016-03-31 17:51:18,153 INFO  [org.springframework.web.context.support.XmlWebApplicationContext] (ServerService Thread Pool -- 65) Closing Root WebApplicationContext: startup date [Thu Mar 31 17:41:10 BST 2016]; root of context hierarchy
+2016-03-31 17:51:18,155 INFO  [org.springframework.context.support.DefaultLifecycleProcessor] (ServerService Thread Pool -- 65) Stopping beans in phase 2147483647
+2016-03-31 17:51:23,158 WARN  [org.springframework.data.redis.listener.RedisMessageListenerContainer] (ServerService Thread Pool -- 65) Unable to close connection. Subscription task still running
+2016-03-31 17:51:23,197 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) WFLYWELD0010: Stopping weld service for deployment ROOT.war
+2016-03-31 17:51:23,217 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 69) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'ROOT.war#demo-unit'
+2016-03-31 17:51:23,224 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 69) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'ROOT.war#demo-unit'
+2016-03-31 17:51:23,249 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 69) WFLYCLINF0003: Stopped client-mappings cache from ejb container
+2016-03-31 17:51:23,275 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0028: Stopped deployment ROOT.war (runtime-name: ROOT.war) in 5146ms
+2016-03-31 17:51:23,282 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0027: Starting deployment of "ROOT.war" (runtime-name: "ROOT.war")
+2016-03-31 17:51:24,056 INFO  [org.jboss.as.jpa] (MSC service thread 1-7) WFLYJPA0002: Read persistence.xml for demo-unit
+2016-03-31 17:51:24,102 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 69) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'ROOT.war#demo-unit'
+2016-03-31 17:51:24,102 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 69) HHH000204: Processing PersistenceUnitInfo [
+	name: demo-unit
+	...]
+2016-03-31 17:51:24,115 INFO  [org.hibernate.orm.deprecation] (ServerService Thread Pool -- 69) HHH90000001: Found usage of deprecated setting for specifying Scanner [hibernate.ejb.resource_scanner]; use [hibernate.archive.scanner] instead
+2016-03-31 17:51:24,144 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0003: Processing weld deployment ROOT.war
+2016-03-31 17:51:24,154 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'SimpleStateless' in deployment unit 'deployment "ROOT.war"' are as follows:
+
+	java:global/ROOT/SimpleStateless!com.microsoft.azure.javaee.SimpleStateless
+	java:app/ROOT/SimpleStateless!com.microsoft.azure.javaee.SimpleStateless
+	java:module/SimpleStateless!com.microsoft.azure.javaee.SimpleStateless
+	java:global/ROOT/SimpleStateless
+	java:app/ROOT/SimpleStateless
+	java:module/SimpleStateless
+
+2016-03-31 17:51:24,191 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 69) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2016-03-31 17:51:24,192 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 69) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2016-03-31 17:51:24,194 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 69) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2016-03-31 17:51:24,196 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 69) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2016-03-31 17:51:24,203 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0006: Starting Services for CDI deployment: ROOT.war
+2016-03-31 17:51:24,213 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 69) WFLYCLINF0002: Started client-mappings cache from ejb container
+2016-03-31 17:51:24,215 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0009: Starting weld service for deployment ROOT.war
+2016-03-31 17:51:24,232 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 68) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'ROOT.war#demo-unit'
+2016-03-31 17:51:24,234 WARN  [org.hibernate.engine.jdbc.dialect.internal.StandardDialectResolver] (ServerService Thread Pool -- 68) HHH000385: Unknown Microsoft SQL Server major version [12] using SQL Server 2000 dialect
+2016-03-31 17:51:24,236 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 68) HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2016-03-31 17:51:24,311 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 68) Envers integration enabled? : true
+2016-03-31 17:51:24,594 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 67) No Spring WebApplicationInitializer types detected on classpath
+2016-03-31 17:51:24,596 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 67) Initializing Spring root WebApplicationContext
+2016-03-31 17:51:24,597 INFO  [org.springframework.web.context.ContextLoader] (ServerService Thread Pool -- 67) Root WebApplicationContext: initialization started
+2016-03-31 17:51:24,660 INFO  [org.springframework.web.context.support.XmlWebApplicationContext] (ServerService Thread Pool -- 67) Refreshing Root WebApplicationContext: startup date [Thu Mar 31 17:51:24 BST 2016]; root of context hierarchy
+2016-03-31 17:51:24,693 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] (ServerService Thread Pool -- 67) Loading XML bean definitions from ServletContext resource [/WEB-INF/spring/session.xml]
+2016-03-31 17:51:24,961 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] (ServerService Thread Pool -- 67) JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2016-03-31 17:51:25,322 INFO  [org.springframework.context.support.DefaultLifecycleProcessor] (ServerService Thread Pool -- 67) Starting beans in phase 2147483647
+2016-03-31 17:51:25,358 INFO  [org.springframework.web.context.ContextLoader] (ServerService Thread Pool -- 67) Root WebApplicationContext: initialization completed in 761 ms
+2016-03-31 17:51:25,361 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 67) Initializing Mojarra 2.2.12-jbossorg-2 20150729-1131 for context ''
+2016-03-31 17:51:25,873 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 67) WFLYUT0021: Registered web context: /
+2016-03-31 17:51:25,943 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0016: Replaced deployment "ROOT.war" with deployment "ROOT.war"

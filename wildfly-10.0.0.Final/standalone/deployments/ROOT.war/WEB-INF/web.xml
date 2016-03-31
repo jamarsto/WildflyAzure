@@ -26,6 +26,14 @@
   		<param-name>redirect</param-name>
   		<param-value>https%3A%2F%2Fjm-java.azurewebsites.net%2F</param-value>
   	</init-param>
+  	<init-param>
+  		<param-name>mode</param-name>
+  		<param-value>form_post</param-value>
+  	</init-param>
+  	<init-param>
+  		<param-name>domain</param-name>
+  		<param-value>jm-java.azurewebsites.net</param-value>
+  	</init-param>
   </filter>
   <filter-mapping>
   	<filter-name>b2cAuthenticationFilter</filter-name>

@@ -745,3 +745,21 @@
 2016-03-31 18:09:43,395 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) WFLYWELD0009: Starting weld service for deployment ROOT.war
 2016-03-31 18:09:43,591 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 58) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'ROOT.war#demo-unit'
 2016-03-31 18:09:43,687 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 59) WFLYCLINF0002: Started client-mappings cache from ejb container
+2016-03-31 18:09:44,511 WARN  [org.hibernate.engine.jdbc.dialect.internal.StandardDialectResolver] (ServerService Thread Pool -- 58) HHH000385: Unknown Microsoft SQL Server major version [12] using SQL Server 2000 dialect
+2016-03-31 18:09:44,519 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 58) HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2016-03-31 18:09:44,690 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 58) Envers integration enabled? : true
+2016-03-31 18:09:45,803 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 59) No Spring WebApplicationInitializer types detected on classpath
+2016-03-31 18:09:45,814 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 59) Initializing Spring root WebApplicationContext
+2016-03-31 18:09:45,815 INFO  [org.springframework.web.context.ContextLoader] (ServerService Thread Pool -- 59) Root WebApplicationContext: initialization started
+2016-03-31 18:09:45,865 INFO  [org.springframework.web.context.support.XmlWebApplicationContext] (ServerService Thread Pool -- 59) Refreshing Root WebApplicationContext: startup date [Thu Mar 31 18:09:45 BST 2016]; root of context hierarchy
+2016-03-31 18:09:45,895 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] (ServerService Thread Pool -- 59) Loading XML bean definitions from ServletContext resource [/WEB-INF/spring/session.xml]
+2016-03-31 18:09:46,195 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] (ServerService Thread Pool -- 59) JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2016-03-31 18:09:46,463 INFO  [org.jboss.as.protocol] (management I/O-1) WFLYPRT0057:  cancelled task by interrupting thread Thread[management-handler-thread - 3,5,management-handler-thread]
+2016-03-31 18:09:46,752 INFO  [org.springframework.context.support.DefaultLifecycleProcessor] (ServerService Thread Pool -- 59) Starting beans in phase 2147483647
+2016-03-31 18:09:46,788 INFO  [org.springframework.web.context.ContextLoader] (ServerService Thread Pool -- 59) Root WebApplicationContext: initialization completed in 973 ms
+2016-03-31 18:09:46,875 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 59) Initializing Mojarra 2.2.12-jbossorg-2 20150729-1131 for context ''
+2016-03-31 18:09:48,066 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 59) WFLYUT0021: Registered web context: /
+2016-03-31 18:09:48,151 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "ROOT.war" (runtime-name : "ROOT.war")
+2016-03-31 18:09:48,325 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2016-03-31 18:09:48,326 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2016-03-31 18:09:48,326 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 10.0.0.Final (WildFly Core 2.0.10.Final) started in 11884ms - Started 450 of 719 services (384 services are lazy, passive or on-demand)

@@ -4065,3 +4065,8 @@
 2016-03-31 22:40:27,572 INFO  [org.springframework.context.support.DefaultLifecycleProcessor] (ServerService Thread Pool -- 59) Starting beans in phase 2147483647
 2016-03-31 22:40:27,613 INFO  [org.springframework.web.context.ContextLoader] (ServerService Thread Pool -- 59) Root WebApplicationContext: initialization completed in 758 ms
 2016-03-31 22:40:27,698 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 59) Initializing Mojarra 2.2.12-jbossorg-2 20150729-1131 for context ''
+2016-03-31 22:40:29,209 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 59) WFLYUT0021: Registered web context: /
+2016-03-31 22:40:29,262 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "ROOT.war" (runtime-name : "ROOT.war")
+2016-03-31 22:40:29,428 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2016-03-31 22:40:29,429 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2016-03-31 22:40:29,429 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 10.0.0.Final (WildFly Core 2.0.10.Final) started in 10703ms - Started 450 of 719 services (384 services are lazy, passive or on-demand)

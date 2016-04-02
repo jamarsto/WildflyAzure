@@ -35,7 +35,7 @@
   		<param-value>jm-java.azurewebsites.net</param-value>
   	</init-param>
   	<init-param>
-  		<param-name>client_secretg</param-name>
+  		<param-name>client_secret</param-name>
   		<param-value>X$oSj~E?1D7U79YK</param-value>
   	</init-param>
   </filter>

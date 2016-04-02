@@ -3444,3 +3444,477 @@
 2016-04-02 17:26:46,754 DEBUG [org.jboss.as.repository] (MSC service thread 1-5) ContentRepository stopped
 2016-04-02 17:26:46,755 DEBUG [org.jboss.as.server] (ServerService Thread Pool -- 63) DeploymentMountProvider stopped
 2016-04-02 17:26:46,755 INFO  [org.jboss.as] (MSC service thread 1-5) WFLYSRV0050: WildFly Full 10.0.0.Final (WildFly Core 2.0.10.Final) stopped in 322ms
+2016-04-02 17:37:49,780 INFO  [org.jboss.modules] (main) JBoss Modules version 1.5.1.Final
+2016-04-02 17:37:49,787 DEBUG [org.jboss.modules] (main) Module org.jboss.staxmapper:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:49,788 DEBUG [org.jboss.modules] (main) Module javax.xml.stream.api:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:49,805 DEBUG [org.jboss.modules] (main) Module org.jboss.as.controller:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:49,807 DEBUG [org.jboss.modules] (main) Module ibm.jdk:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:49,809 DEBUG [org.jboss.modules] (main) Module org.jboss.as.controller-client:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:49,811 DEBUG [org.jboss.modules] (main) Module org.jboss.dmr:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:49,814 DEBUG [org.jboss.modules] (main) Module org.jboss.as.core-security:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:49,817 DEBUG [org.jboss.modules] (main) Module org.jboss.as.core-security-api:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:49,823 DEBUG [org.jboss.modules] (main) Module org.jboss.as.domain-management:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:49,831 DEBUG [org.jboss.modules] (main) Module sun.jdk:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:49,834 DEBUG [org.jboss.modules] (main) Module sun.scripting:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:49,838 DEBUG [org.jboss.modules] (main) Module org.jboss.as.network:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:49,841 DEBUG [org.jboss.modules] (main) Module org.jboss.as.remoting:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:49,844 DEBUG [org.jboss.modules] (main) Module org.jboss.remoting:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:49,846 DEBUG [org.jboss.modules] (main) Module org.jboss.marshalling:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:49,848 DEBUG [org.jboss.modules] (main) Module org.jboss.xnio:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:49,850 DEBUG [org.jboss.modules] (main) Module org.jboss.logging:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:49,852 DEBUG [org.jboss.modules] (main) Module org.jboss.remoting-jmx:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:49,859 DEBUG [org.jboss.modules] (main) Module org.jboss.invocation:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:49,861 DEBUG [org.jboss.modules] (main) Module org.jboss.jandex:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:49,863 DEBUG [org.jboss.modules] (main) Module org.jboss.marshalling.river:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:49,869 DEBUG [org.jboss.modules] (main) Module org.jboss.log4j.logmanager:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:49,872 DEBUG [org.jboss.modules] (main) Module org.jboss.sasl:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:49,873 DEBUG [org.jboss.modules] (main) Module org.jboss.stdio:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:49,876 DEBUG [org.jboss.modules] (main) Module org.jboss.threads:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:49,879 DEBUG [org.jboss.modules] (main) Module org.jboss.as.deployment-repository:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:49,880 DEBUG [org.jboss.modules] (main) Module org.jboss.as.domain-http-interface:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:49,883 DEBUG [org.jboss.modules] (main) Module org.jboss.as.patching:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:49,887 DEBUG [org.jboss.modules] (main) Module org.jboss.as.platform-mbean:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:49,889 DEBUG [org.jboss.modules] (main) Module org.jboss.as.process-controller:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:49,891 DEBUG [org.jboss.modules] (main) Module org.jboss.as.version:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:49,894 DEBUG [org.jboss.modules] (main) Module org.jboss.as.protocol:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:49,895 DEBUG [org.jboss.modules] (main) Module org.jboss.as.self-contained:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:49,899 DEBUG [org.jboss.modules] (main) Module org.picketbox:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:49,904 DEBUG [org.jboss.modules] (main) Module io.undertow.core:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:49,905 DEBUG [org.jboss.modules] (main) Module org.wildfly.common:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,076 DEBUG [org.jboss.modules] (main) Module org.jboss.as.product:wildfly-full defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,111 DEBUG [org.jboss.modules] (main) Module javax.inject.api:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,129 DEBUG [org.jboss.logging] (main) Logging Provider: org.jboss.logging.JBossLogManagerProvider
+2016-04-02 17:37:50,131 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final
+2016-04-02 17:37:50,204 INFO  [org.jboss.as] (MSC service thread 1-7) WFLYSRV0049: WildFly Full 10.0.0.Final (WildFly Core 2.0.10.Final) starting
+2016-04-02 17:37:50,206 DEBUG [org.jboss.as.config] (MSC service thread 1-7) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\Wildfly\wildfly-10.0.0.Final\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jdk1.8.0_73\jre\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jdk1.8.0_73\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jdk1.8.0_73\jre
+	java.io.tmpdir = C:\Users\jamarsto\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk1.8.0_73\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;native;C:/Program Files/Java/jre1.8.0_77/bin/server;C:/Program Files/Java/jre1.8.0_77/bin;C:/Program Files/Java/jre1.8.0_77/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files (x86)\nodejs\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SDKs\Azure\CLI\wbin;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft Emulator Manager\1.0\;C:\Program Files\Git\cmd;C:\Program Files\Microsoft DNX\Dnvm\;C:\Users\jamarsto\AppData\Roaming\npm;C:\eclipse;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_73-b02
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_73
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.73-b02
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = C:\Wildfly\wildfly-10.0.0.Final
+	jboss.host.name = minint-kf12rjj
+	jboss.http.port = 8080
+	jboss.modules.dir = C:\Wildfly\wildfly-10.0.0.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = minint-kf12rjj
+	jboss.qualified.host.name = minint-kf12rjj
+	jboss.server.base.dir = C:\Wildfly\wildfly-10.0.0.Final\standalone
+	jboss.server.config.dir = C:\Wildfly\wildfly-10.0.0.Final\standalone\configuration
+	jboss.server.data.dir = C:\Wildfly\wildfly-10.0.0.Final\standalone\data
+	jboss.server.deploy.dir = C:\Wildfly\wildfly-10.0.0.Final\standalone\data\content
+	jboss.server.log.dir = C:\Wildfly\wildfly-10.0.0.Final\standalone\log
+	jboss.server.name = minint-kf12rjj
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Wildfly\wildfly-10.0.0.Final\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:/C:/Wildfly/wildfly-10.0.0.Final/standalone/configuration/logging.properties
+	module.path = C:/Wildfly/wildfly-10.0.0.Final/modules
+	org.jboss.boot.log.file = C:/Wildfly/wildfly-10.0.0.Final/standalone/log/boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = JBossTools: WildFly  8.x
+	redis_host = ja-redis.northeurope.cloudapp.azure.com
+	redis_password = <redacted>
+	redis_port = 6379
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jdk1.8.0_73\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_73\jre\classes
+	sun.boot.library.path = C:\Program Files\Java\jdk1.8.0_73\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp C:/Wildfly/wildfly-10.0.0.Final/modules -jaxpmodule javax.xml.jaxp-provider -jaxpmodule javax.xml.jaxp-provider org.jboss.as.standalone -b localhost --server-config=standalone.xml -Djboss.server.base.dir=C:\Wildfly\wildfly-10.0.0.Final\standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = GB
+	user.dir = C:\Wildfly\wildfly-10.0.0.Final\bin
+	user.home = C:\Users\jamarsto
+	user.language = en
+	user.name = jamarsto
+	user.script = 
+	user.timezone = Europe/London
+	user.variant = 
+2016-04-02 17:37:50,206 DEBUG [org.jboss.as.config] (MSC service thread 1-7) VM Arguments: -Dprogram.name=JBossTools: WildFly  8.x -Xms64m -Xmx512m -XX:MaxPermSize=256m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=C:/Wildfly/wildfly-10.0.0.Final/standalone/log/boot.log -Dlogging.configuration=file:/C:/Wildfly/wildfly-10.0.0.Final/standalone/configuration/logging.properties -Djboss.home.dir=C:/Wildfly/wildfly-10.0.0.Final -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dredis_host=ja-redis.northeurope.cloudapp.azure.com -Dredis_port=6379 -Dredis_password= -Djboss.http.port=8080 -Dfile.encoding=Cp1252 
+2016-04-02 17:37:50,233 DEBUG [org.jboss.as] (MSC service thread 1-7) Using VaultReader org.jboss.as.server.services.security.RuntimeVaultReader@37bb759a
+2016-04-02 17:37:50,242 DEBUG [org.jboss.modules] (MSC service thread 1-7) Module org.jboss.as.security:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,244 DEBUG [org.jboss.modules] (MSC service thread 1-7) Module org.jboss.as.threads:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,245 DEBUG [org.jboss.modules] (MSC service thread 1-7) Module org.wildfly.extension.io:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,251 DEBUG [org.jboss.modules] (MSC service thread 1-7) Module org.jboss.xnio.nio:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,268 DEBUG [org.jboss.as] (MSC service thread 1-7) WildFly Full 10.0.0.Final (WildFly Core 2.0.10.Final) root service started in 101011234.495894 ms
+2016-04-02 17:37:50,277 DEBUG [org.jboss.as.repository] (MSC service thread 1-2) ContentRepository started
+2016-04-02 17:37:50,288 DEBUG [org.jboss.as.server] (MSC service thread 1-2) DeploymentMountProvider started
+2016-04-02 17:37:50,558 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 2) Module org.jboss.as.clustering.infinispan:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,559 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 2) Module javax.transaction.api:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,560 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 4) Module org.jboss.as.deployment-scanner:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,560 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 2) Module net.jcip:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,566 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 2) Module org.infinispan:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,568 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 2) Module org.infinispan.cachestore.jdbc:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,570 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 2) Module org.infinispan.cachestore.remote:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,572 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 2) Module org.infinispan.client.hotrod:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,559 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 3) Module org.jboss.as.connector:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,574 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 2) Module org.infinispan.commons:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,583 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 2) Module org.jboss.as.clustering.common:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,584 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 15) Module org.jboss.as.pojo:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,584 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 2) Module org.jboss.as.clustering.jgroups:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,585 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 26) Module org.wildfly.extension.security.manager:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,586 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 2) Module org.jboss.as.ee:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,588 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 4) Module org.wildfly.extension.undertow:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,588 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 26) Module org.jboss.metadata.common:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,588 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 17) Module org.jboss.as.sar:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,589 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 26) Module org.wildfly.security.manager:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,590 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 4) Module io.undertow.servlet:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,591 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 13) Module org.jboss.as.mail:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,591 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 4) Module io.undertow.jsp:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,592 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 21) Module org.jboss.as.weld:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,593 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 13) Module javax.mail.api:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,594 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 21) Module ch.qos.cal10n:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,594 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 19) Module org.jboss.as.transactions:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,595 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 19) Module javax.enterprise.concurrent.api:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,596 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 11) Module org.jboss.as.jsf:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,596 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 20) Module org.jboss.as.webservices:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,597 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 19) Module org.glassfish.javax.enterprise.concurrent:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,598 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 11) Module javax.annotation.api:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,598 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 4) Module io.undertow.websocket:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,599 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 4) Module javax.security.auth.message.api:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,600 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 11) Module javax.faces.api:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,601 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 4) Module javax.servlet.api:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,602 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 4) Module javax.servlet.jsp.api:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,603 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 20) Module javax.ejb.api:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,603 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 23) Module org.wildfly.extension.bean-validation:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,604 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 11) Module javax.enterprise.api:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,605 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 23) Module javax.interceptor.api:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,606 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 23) Module javax.validation.api:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,598 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 21) Module com.google.guava:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,609 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 4) Module org.glassfish.javax.el:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,609 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 23) Module org.hibernate.validator:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,610 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 6) Module org.jboss.as.ejb3:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,610 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 4) Module javax.el.api:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,611 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 4) Module javax.websocket.api:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,612 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 7) Module org.jboss.as.jaxrs:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,613 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 4) Module org.wildfly.clustering.web.api:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,614 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 7) Module javax.ws.rs.api:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,615 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 5) Module javax.xml.ws.api:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,605 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 20) Module javax.jws.api:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,618 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 7) Module org.jboss.resteasy.resteasy-jaxrs:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,619 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 25) Module org.wildfly.extension.request-controller:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,619 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 7) Module org.jboss.resteasy.resteasy-validator-provider-11:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,621 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 7) Module org.jboss.as.web-common:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,622 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 21) Module javax.persistence.api:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,623 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 7) Module org.jboss.metadata.web:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,623 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 21) Module org.hibernate.validator.cdi:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,624 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 7) Module org.jboss.resteasy.resteasy-atom-provider:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,624 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 6) Module javax.jms.api:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,625 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 3) Module javax.resource.api:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,602 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 10) Module org.jboss.as.jpa:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,626 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 5) Module javax.xml.bind.api:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,627 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 5) Module javax.activation.api:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,628 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 10) Module org.jboss.as.jpa.spi:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,629 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 5) Module javax.xml.soap.api:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,602 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 22) Module org.wildfly.extension.batch.jberet:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,630 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 11) Module javax.servlet.jstl.api:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,631 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 22) Module javax.batch.api:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,633 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 8) Module org.jboss.as.jdr:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,634 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 20) Module org.jboss.ejb3:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,625 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 7) Module org.jboss.resteasy.resteasy-cdi:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,635 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 8) Module org.apache.commons.cli:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,635 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 20) Module org.jboss.metadata.ear:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,638 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 20) Module org.jboss.metadata.ejb:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,635 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 7) Module org.jboss.resteasy.resteasy-crypto:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,649 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 14) Module org.jboss.as.naming:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,652 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 14) Module org.jboss.remote-naming:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,658 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 22) Module org.jberet.jberet-core:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,660 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 22) Module org.wildfly.jberet:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,666 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 11) Module com.sun.jsf-impl:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,668 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 11) Module org.jboss.weld.spi:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,636 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 8) Module org.apache.commons.io:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,672 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 20) Module org.jboss.ws.api:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,674 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 20) Module org.jboss.ws.common:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,675 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 8) Module org.jboss.as.cli:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,676 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 20) Module org.jboss.ws.spi:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,677 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 20) Module javax.xml.rpc.api:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,678 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 20) Module javax.rmi.api:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,679 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 7) Module org.jboss.resteasy.resteasy-jaxb-provider:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,681 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 7) Module org.jboss.resteasy.resteasy-jackson-provider:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,683 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 7) Module org.codehaus.jackson.jackson-core-asl:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,684 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 20) Module javax.orb.api:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,685 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 7) Module org.codehaus.jackson.jackson-mapper-asl:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,686 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 20) Module org.omg.api:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,686 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 7) Module org.codehaus.jackson.jackson-xc:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,648 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 12) Module org.jboss.as.logging:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,688 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 12) Module org.apache.log4j:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,690 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 20) Module org.jboss.jts:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,694 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 21) Module org.jboss.as.webservices.server.integration:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,695 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 6) Module javax.security.jacc.api:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,695 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 21) Module javax.wsdl4j.api:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,700 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 7) Module org.jboss.resteasy.resteasy-jettison-provider:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,701 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 7) Module org.jboss.resteasy.resteasy-jsapi:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,703 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 7) Module org.jboss.resteasy.resteasy-multipart-provider:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,705 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 7) Module org.jboss.resteasy.resteasy-spring:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,706 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 7) Module org.jboss.resteasy.resteasy-yaml-provider:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,647 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 4) Module org.wildfly.clustering.web.undertow:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,708 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 6) Module org.hibernate:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,710 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 4) Module org.jboss.security.negotiation:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,723 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 18) Module org.wildfly.clustering.infinispan.spi:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,710 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 6) Module org.wildfly.clustering.api:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,791 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 10) Module org.jboss.jboss-transaction-spi:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,791 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 6) Module org.wildfly.clustering.ee.spi:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,792 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 10) Module org.jboss.jts.integration:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,793 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 6) Module org.wildfly.clustering.ejb.spi:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,794 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 6) Module org.wildfly.clustering.marshalling.api:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,795 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 10) Module org.jboss.weld.core:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,800 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 10) Module org.wildfly.clustering.service:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,807 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 19) Module org.wildfly.iiop-openjdk:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,808 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 19) Module org.jboss.narayana.compensations:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,813 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 21) Module com.sun.xml.bind:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,815 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 21) Module com.github.relaxng:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,817 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 21) Module com.sun.istack:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,817 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 3) Module org.jboss.ironjacamar.api:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,821 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 3) Module org.jboss.ironjacamar.impl:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,795 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 6) Module org.wildfly.clustering.marshalling.jboss:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,822 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 21) Module com.sun.xml.txw2:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,825 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 21) Module com.sun.xsom:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,827 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 21) Module org.jboss.ws.jaxws-client:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,828 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 21) Module org.jboss.ws.cxf.jbossws-cxf-factories:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,830 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 21) Module org.jboss.ws.cxf.jbossws-cxf-transports-undertow:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,831 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 21) Module org.jboss.ws.cxf.jbossws-cxf-transports-udp:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,822 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 6) Module org.wildfly.clustering.spi:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,834 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 3) Module org.jboss.ironjacamar.jdbcadapters:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,835 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 6) Module org.wildfly.clustering.singleton:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,837 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 6) Module org.jboss.classfilewriter:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,841 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 6) Module org.jboss.ejb-client:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,842 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 6) Module org.jboss.iiop-client:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,851 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 3) Module org.jgroups:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,837 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 21) Module org.jboss.ws.cxf.jbossws-cxf-server:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,866 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 2) Module org.wildfly.clustering.ee.infinispan:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,873 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 2) Module org.wildfly.clustering.jgroups.spi:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,853 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 3) Module org.wildfly.clustering.jgroups.api:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,909 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 21) Module org.apache.cxf.impl:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,913 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 21) Module org.apache.cxf:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,915 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 21) Module com.sun.xml.messaging.saaj:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,920 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 21) Module org.apache.ws.security:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,923 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 21) Module org.apache.santuario.xmlsec:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,931 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 21) Module org.bouncycastle:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,932 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 21) Module org.jboss.weld.api:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,935 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 21) Module org.slf4j:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,936 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 21) Module org.slf4j.ext:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:50,940 DEBUG [org.jboss.as.controller] (Controller Boot Thread) Parsed extensions in [386] ms
+2016-04-02 17:37:51,033 DEBUG [org.jboss.modules] (Controller Boot Thread) Module org.wildfly.clustering.ejb.infinispan:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:51,154 DEBUG [org.jboss.as.server] (Controller Boot Thread) Parsed standalone configuration in [601] ms
+2016-04-02 17:37:51,183 DEBUG [org.jboss.as.jsf] (ServerService Thread Pool -- 23) Activating JSF(Mojarra) Extension
+2016-04-02 17:37:51,192 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 13) Module asm.asm:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:51,193 DEBUG [org.jboss.as.connector] (ServerService Thread Pool -- 4) Initializing Connector Extension
+2016-04-02 17:37:51,198 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 8) Module org.jboss.security.xacml:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:51,199 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 13) Module com.fasterxml.classmate:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:51,200 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 13) Module org.antlr:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:51,202 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 13) Module org.dom4j:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:51,204 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 13) Module org.javassist:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:51,206 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 13) Module org.hibernate.commons-annotations:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:51,209 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 13) Module org.hibernate.infinispan:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:51,211 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 13) Module org.hibernate.jipijapa-hibernate5:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:51,229 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 20) Module org.slf4j.jcl-over-slf4j:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:51,229 DEBUG [org.jboss.as.server.deployment.scanner] (ServerService Thread Pool -- 2) Initializing Deployment Scanner Extension
+2016-04-02 17:37:51,231 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 20) Module org.jboss.logging.jul-to-slf4j-stub:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:51,232 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 20) Module org.slf4j.impl:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:51,254 DEBUG [org.jboss.as.jaxrs] (ServerService Thread Pool -- 12) Activating JAX-RS Extension
+2016-04-02 17:37:51,258 DEBUG [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 4) Initializing Datasources Extension
+2016-04-02 17:37:51,290 DEBUG [org.jboss.as.weld] (ServerService Thread Pool -- 2) Activating Weld Extension
+2016-04-02 17:37:51,343 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 21) Module org.wildfly.clustering.server:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:51,345 DEBUG [org.jboss.as.txn] (ServerService Thread Pool -- 20) Initializing Transactions Extension
+2016-04-02 17:37:51,345 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 21) Module org.wildfly.clustering.web.infinispan:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:51,365 DEBUG [org.jboss.as.connector.subsystems.resourceadapters] (ServerService Thread Pool -- 4) Initializing ResourceAdapters Extension
+2016-04-02 17:37:51,376 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 20) Module org.apache.activemq.artemis:main defined by local module loader @5e91993f (finder: local module finder @1c4af82c (roots: C:\Wildfly\wildfly-10.0.0.Final\modules,C:\Wildfly\wildfly-10.0.0.Final\modules\system\layers\base))
+2016-04-02 17:37:51,427 DEBUG [org.jboss.as.controller.management-operation] (Controller Boot Thread) Initialized extensions in [252] ms
+2016-04-02 17:37:51,558 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found ROOT.war in deployment directory. To trigger deployment create a file called ROOT.war.dodeploy
+2016-04-02 17:37:51,562 DEBUG [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) Deployment scan of [C:\Wildfly\wildfly-10.0.0.Final\standalone\deployments] found update action [{
+    "operation" => "composite",
+    "address" => [],
+    "steps" => [
+        {
+            "operation" => "add",
+            "address" => [("deployment" => "ROOT.war")],
+            "content" => [{
+                "archive" => false,
+                "path" => "deployments\\ROOT.war",
+                "relative-to" => "jboss.server.base.dir"
+            }],
+            "persistent" => false,
+            "owner" => [
+                ("subsystem" => "deployment-scanner"),
+                ("scanner" => "default")
+            ]
+        },
+        {
+            "operation" => "deploy",
+            "address" => [("deployment" => "ROOT.war")],
+            "owner" => [
+                ("subsystem" => "deployment-scanner"),
+                ("scanner" => "default")
+            ]
+        }
+    ],
+    "operation-headers" => {"rollback-on-runtime-failure" => false}
+}]
+2016-04-02 17:37:51,574 DEBUG [org.jboss.as.controller.management-operation] (Controller Boot Thread) Stage MODEL boot ops for subsystem logging succeeded
+2016-04-02 17:37:51,574 DEBUG [org.jboss.as.controller.management-operation] (Controller Boot Thread) Stage MODEL boot ops for subsystem batch-jberet succeeded
+2016-04-02 17:37:51,575 DEBUG [org.jboss.as.controller.management-operation] (Controller Boot Thread) Stage MODEL boot ops for subsystem bean-validation succeeded
+2016-04-02 17:37:51,575 DEBUG [org.jboss.as.controller.management-operation] (Controller Boot Thread) Stage MODEL boot ops for subsystem datasources succeeded
+2016-04-02 17:37:51,575 DEBUG [org.jboss.as.controller.management-operation] (Controller Boot Thread) Stage MODEL boot ops for subsystem deployment-scanner succeeded
+2016-04-02 17:37:51,575 DEBUG [org.jboss.as.controller.management-operation] (Controller Boot Thread) Stage MODEL boot ops for subsystem ee succeeded
+2016-04-02 17:37:51,575 DEBUG [org.jboss.as.controller.management-operation] (Controller Boot Thread) Stage MODEL boot ops for subsystem ejb3 succeeded
+2016-04-02 17:37:51,575 DEBUG [org.jboss.as.controller.management-operation] (Controller Boot Thread) Stage MODEL boot ops for subsystem io succeeded
+2016-04-02 17:37:51,575 DEBUG [org.jboss.as.controller.management-operation] (Controller Boot Thread) Stage MODEL boot ops for subsystem infinispan succeeded
+2016-04-02 17:37:51,575 DEBUG [org.jboss.as.controller.management-operation] (Controller Boot Thread) Stage MODEL boot ops for subsystem jaxrs succeeded
+2016-04-02 17:37:51,575 DEBUG [org.jboss.as.controller.management-operation] (Controller Boot Thread) Stage MODEL boot ops for subsystem jca succeeded
+2016-04-02 17:37:51,575 DEBUG [org.jboss.as.controller.management-operation] (Controller Boot Thread) Stage MODEL boot ops for subsystem jdr succeeded
+2016-04-02 17:37:51,575 DEBUG [org.jboss.as.controller.management-operation] (Controller Boot Thread) Stage MODEL boot ops for subsystem jmx succeeded
+2016-04-02 17:37:51,575 DEBUG [org.jboss.as.controller.management-operation] (Controller Boot Thread) Stage MODEL boot ops for subsystem jpa succeeded
+2016-04-02 17:37:51,576 DEBUG [org.jboss.as.controller.management-operation] (Controller Boot Thread) Stage MODEL boot ops for subsystem jsf succeeded
+2016-04-02 17:37:51,576 DEBUG [org.jboss.as.controller.management-operation] (Controller Boot Thread) Stage MODEL boot ops for subsystem mail succeeded
+2016-04-02 17:37:51,576 DEBUG [org.jboss.as.controller.management-operation] (Controller Boot Thread) Stage MODEL boot ops for subsystem naming succeeded
+2016-04-02 17:37:51,576 DEBUG [org.jboss.as.controller.management-operation] (Controller Boot Thread) Stage MODEL boot ops for subsystem pojo succeeded
+2016-04-02 17:37:51,576 DEBUG [org.jboss.as.controller.management-operation] (Controller Boot Thread) Stage MODEL boot ops for subsystem remoting succeeded
+2016-04-02 17:37:51,576 DEBUG [org.jboss.as.controller.management-operation] (Controller Boot Thread) Stage MODEL boot ops for subsystem resource-adapters succeeded
+2016-04-02 17:37:51,576 DEBUG [org.jboss.as.controller.management-operation] (Controller Boot Thread) Stage MODEL boot ops for subsystem request-controller succeeded
+2016-04-02 17:37:51,576 DEBUG [org.jboss.as.controller.management-operation] (Controller Boot Thread) Stage MODEL boot ops for subsystem sar succeeded
+2016-04-02 17:37:51,576 DEBUG [org.jboss.as.controller.management-operation] (Controller Boot Thread) Stage MODEL boot ops for subsystem security-manager succeeded
+2016-04-02 17:37:51,576 DEBUG [org.jboss.as.controller.management-operation] (Controller Boot Thread) Stage MODEL boot ops for subsystem security succeeded
+2016-04-02 17:37:51,576 DEBUG [org.jboss.as.controller.management-operation] (Controller Boot Thread) Stage MODEL boot ops for subsystem transactions succeeded
+2016-04-02 17:37:51,576 DEBUG [org.jboss.as.controller.management-operation] (Controller Boot Thread) Stage MODEL boot ops for subsystem undertow succeeded
+2016-04-02 17:37:51,577 DEBUG [org.jboss.as.controller.management-operation] (Controller Boot Thread) Stage MODEL boot ops for subsystem webservices succeeded
+2016-04-02 17:37:51,577 DEBUG [org.jboss.as.controller.management-operation] (Controller Boot Thread) Stage MODEL boot ops for subsystem weld succeeded
+2016-04-02 17:37:51,578 DEBUG [org.jboss.as.controller.management-operation] (Controller Boot Thread) Ran subsystem model operations in [118] ms
+2016-04-02 17:37:51,585 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2016-04-02 17:37:51,597 DEBUG [org.jboss.as.controller.management-operation] (MSC service thread 1-4) Starting operation handler service service jboss.remoting.endpoint.management.management.operation.handler
+2016-04-02 17:37:51,606 INFO  [org.xnio] (MSC service thread 1-5) XNIO version 3.3.4.Final
+2016-04-02 17:37:51,614 INFO  [org.xnio.nio] (MSC service thread 1-5) XNIO NIO Implementation Version 3.3.4.Final
+2016-04-02 17:37:51,626 DEBUG [org.jboss.as.server.net] (MSC service thread 1-4) Starting NetworkInterfaceService
+
+2016-04-02 17:37:51,630 DEBUG [org.jboss.as.server.net] (MSC service thread 1-3) Starting NetworkInterfaceService
+
+2016-04-02 17:37:51,702 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 46) WFLYNAM0001: Activating Naming Subsystem
+2016-04-02 17:37:51,726 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 44) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2016-04-02 17:37:51,741 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 56) WFLYWS0002: Activating WebServices Extension
+2016-04-02 17:37:51,750 INFO  [org.jboss.as.connector] (MSC service thread 1-2) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.3.2.Final)
+2016-04-02 17:37:51,751 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 38) WFLYCLINF0001: Activating Infinispan subsystem.
+2016-04-02 17:37:51,764 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 53) WFLYSEC0002: Activating Security Subsystem
+2016-04-02 17:37:51,769 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 37) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+2016-04-02 17:37:51,783 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0003: Undertow 1.3.15.Final starting
+2016-04-02 17:37:51,786 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0003: Undertow 1.3.15.Final starting
+2016-04-02 17:37:51,815 INFO  [org.jboss.remoting] (MSC service thread 1-5) JBoss Remoting version 4.0.18.Final
+2016-04-02 17:37:51,847 INFO  [org.jboss.as.security] (MSC service thread 1-2) WFLYSEC0001: Current PicketBox version=4.9.4.Final
+2016-04-02 17:37:51,879 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 54) WFLYTX0013: Node identifier property is set to the default value. Please make sure it is unique.
+2016-04-02 17:37:52,004 INFO  [org.jboss.as.naming] (MSC service thread 1-6) WFLYNAM0003: Starting Naming Service
+2016-04-02 17:37:52,004 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-1) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2016-04-02 17:37:52,042 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2016-04-02 17:37:52,049 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0018: Started Driver service with driver-name = h2
+2016-04-02 17:37:52,115 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0012: Started server default-server.
+2016-04-02 17:37:52,320 INFO  [org.jboss.as.ejb3] (MSC service thread 1-8) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 64 (per class), which is derived from thread worker pool sizing.
+2016-04-02 17:37:52,324 INFO  [org.jboss.as.ejb3] (MSC service thread 1-6) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 16 (per class), which is derived from the number of CPUs on this host.
+2016-04-02 17:37:52,452 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0004: Deploying JDBC-compliant driver class com.microsoft.sqlserver.jdbc.SQLServerDriver (version 4.0)
+2016-04-02 17:37:52,499 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0018: Started Driver service with driver-name = sqlserver
+2016-04-02 17:37:52,596 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0001: Bound data source [java:/jdbc/unmanaged/demo]
+2016-04-02 17:37:52,783 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2016-04-02 17:37:53,065 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-2) WFLYDS0013: Started FileSystemDeploymentService for directory C:\Wildfly\wildfly-10.0.0.Final\standalone\deployments
+2016-04-02 17:37:53,084 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "ROOT.war" (runtime-name: "ROOT.war")
+2016-04-02 17:37:53,261 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0001: Bound data source [java:/jdbc/managed/demo]
+2016-04-02 17:37:53,261 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2016-04-02 17:37:53,352 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-3) ISPN000128: Infinispan version: Infinispan 'Mahou' 8.1.0.Final
+2016-04-02 17:37:53,416 INFO  [org.jboss.ws.common.management] (MSC service thread 1-4) JBWS022052: Starting JBossWS 5.1.3.Final (Apache CXF 3.1.4) 
+2016-04-02 17:37:54,767 INFO  [org.jboss.as.jpa] (MSC service thread 1-6) WFLYJPA0002: Read persistence.xml for demo-unit
+2016-04-02 17:37:54,906 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 59) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'ROOT.war#demo-unit'
+2016-04-02 17:37:54,932 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 59) HHH000204: Processing PersistenceUnitInfo [
+	name: demo-unit
+	...]
+2016-04-02 17:37:55,307 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) WFLYWELD0003: Processing weld deployment ROOT.war
+2016-04-02 17:37:55,343 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 59) HHH000412: Hibernate Core {5.0.7.Final}
+2016-04-02 17:37:55,344 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 59) HHH000206: hibernate.properties not found
+2016-04-02 17:37:55,346 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 59) HHH000021: Bytecode provider name : javassist
+2016-04-02 17:37:55,399 INFO  [org.hibernate.orm.deprecation] (ServerService Thread Pool -- 59) HHH90000001: Found usage of deprecated setting for specifying Scanner [hibernate.ejb.resource_scanner]; use [hibernate.archive.scanner] instead
+2016-04-02 17:37:55,432 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 59) HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2016-04-02 17:37:55,465 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-1) HV000001: Hibernate Validator 5.2.3.Final
+2016-04-02 17:37:55,598 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-1) WFLYEJB0473: JNDI bindings for session bean named 'SimpleStateless' in deployment unit 'deployment "ROOT.war"' are as follows:
+
+	java:global/ROOT/SimpleStateless!com.microsoft.azure.javaee.SimpleStateless
+	java:app/ROOT/SimpleStateless!com.microsoft.azure.javaee.SimpleStateless
+	java:module/SimpleStateless!com.microsoft.azure.javaee.SimpleStateless
+	java:global/ROOT/SimpleStateless
+	java:app/ROOT/SimpleStateless
+	java:module/SimpleStateless
+
+2016-04-02 17:37:55,860 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 59) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2016-04-02 17:37:55,863 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 59) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2016-04-02 17:37:55,864 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 59) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2016-04-02 17:37:55,866 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 59) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2016-04-02 17:37:55,891 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) WFLYWELD0006: Starting Services for CDI deployment: ROOT.war
+2016-04-02 17:37:55,929 INFO  [org.jboss.weld.Version] (MSC service thread 1-6) WELD-000900: 2.3.2 (Final)
+2016-04-02 17:37:55,972 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0018: Host default-host starting
+2016-04-02 17:37:55,989 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0009: Starting weld service for deployment ROOT.war
+2016-04-02 17:37:56,245 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 58) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'ROOT.war#demo-unit'
+2016-04-02 17:37:56,292 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 59) WFLYCLINF0002: Started client-mappings cache from ejb container
+2016-04-02 17:37:57,139 WARN  [org.hibernate.engine.jdbc.dialect.internal.StandardDialectResolver] (ServerService Thread Pool -- 58) HHH000385: Unknown Microsoft SQL Server major version [12] using SQL Server 2000 dialect
+2016-04-02 17:37:57,145 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 58) HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2016-04-02 17:37:57,317 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 58) Envers integration enabled? : true
+2016-04-02 17:37:58,283 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 61) No Spring WebApplicationInitializer types detected on classpath
+2016-04-02 17:37:58,300 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 61) Initializing Spring root WebApplicationContext
+2016-04-02 17:37:58,302 INFO  [org.springframework.web.context.ContextLoader] (ServerService Thread Pool -- 61) Root WebApplicationContext: initialization started
+2016-04-02 17:37:58,347 INFO  [org.springframework.web.context.support.XmlWebApplicationContext] (ServerService Thread Pool -- 61) Refreshing Root WebApplicationContext: startup date [Sat Apr 02 17:37:58 BST 2016]; root of context hierarchy
+2016-04-02 17:37:58,377 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] (ServerService Thread Pool -- 61) Loading XML bean definitions from ServletContext resource [/WEB-INF/spring/session.xml]
+2016-04-02 17:37:58,687 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] (ServerService Thread Pool -- 61) JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2016-04-02 17:37:59,015 INFO  [org.springframework.context.support.DefaultLifecycleProcessor] (ServerService Thread Pool -- 61) Starting beans in phase 2147483647
+2016-04-02 17:37:59,051 INFO  [org.springframework.web.context.ContextLoader] (ServerService Thread Pool -- 61) Root WebApplicationContext: initialization completed in 749 ms
+2016-04-02 17:37:59,131 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 61) Initializing Mojarra 2.2.12-jbossorg-2 20150729-1131 for context ''
+2016-04-02 17:38:00,471 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 61) WFLYUT0021: Registered web context: /
+2016-04-02 17:38:00,569 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "ROOT.war" (runtime-name : "ROOT.war")
+2016-04-02 17:38:00,773 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2016-04-02 17:38:00,773 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2016-04-02 17:38:00,773 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 10.0.0.Final (WildFly Core 2.0.10.Final) started in 11435ms - Started 444 of 713 services (381 services are lazy, passive or on-demand)

@@ -31,6 +31,7 @@
         <extension module="org.wildfly.extension.undertow"/>
     </extensions>
 
+
     <management>
         <security-realms>
             <security-realm name="ManagementRealm">
@@ -377,7 +378,7 @@
             <buffer-cache name="default"/>
             <server name="default-server">
                 <http-listener name="default" socket-binding="http"/>
-                <host name="default-host" alias="localhost" default-web-module="ROOT.war" />
+                <host name="default-host" alias="localhost"/>
             </server>
             <servlet-container name="default">
                 <jsp-config/>
@@ -418,5 +419,4 @@
             <remote-destination host="localhost" port="25"/>
         </outbound-socket-binding>
     </socket-binding-group>
-
 </server>

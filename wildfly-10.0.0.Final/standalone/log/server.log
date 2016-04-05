@@ -203,3 +203,416 @@ WFLYCTL0184:    New missing/unsatisfied dependencies:
 2016-04-05 15:37:41,611 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0019: Stopped Driver service with driver-name = h2
 2016-04-05 15:37:41,615 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0004: Undertow 1.3.15.Final stopping
 2016-04-05 15:37:41,669 INFO  [org.jboss.as] (MSC service thread 1-6) WFLYSRV0050: WildFly Full 10.0.0.Final (WildFly Core 2.0.10.Final) stopped in 236ms
+2016-04-05 15:55:32,458 INFO  [org.jboss.modules] (main) JBoss Modules version 1.5.1.Final
+2016-04-05 15:55:32,665 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final
+2016-04-05 15:55:32,732 INFO  [org.jboss.as] (MSC service thread 1-6) WFLYSRV0049: WildFly Full 10.0.0.Final (WildFly Core 2.0.10.Final) starting
+2016-04-05 15:55:32,733 DEBUG [org.jboss.as.config] (MSC service thread 1-6) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\Wildfly\wildfly-10.0.0.Final\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jdk1.8.0_73\jre\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jdk1.8.0_73\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jdk1.8.0_73\jre
+	java.io.tmpdir = C:\Users\jamarsto\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk1.8.0_73\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;native;C:/Program Files/Java/jre1.8.0_77/bin/server;C:/Program Files/Java/jre1.8.0_77/bin;C:/Program Files/Java/jre1.8.0_77/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files (x86)\nodejs\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SDKs\Azure\CLI\wbin;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft Emulator Manager\1.0\;C:\Program Files\Git\cmd;C:\Program Files\Microsoft DNX\Dnvm\;C:\Users\jamarsto\AppData\Roaming\npm;C:\eclipse;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_73-b02
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_73
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.73-b02
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = C:\Wildfly\wildfly-10.0.0.Final
+	jboss.host.name = minint-kf12rjj
+	jboss.http.port = 8080
+	jboss.modules.dir = C:\Wildfly\wildfly-10.0.0.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = minint-kf12rjj
+	jboss.qualified.host.name = minint-kf12rjj
+	jboss.server.base.dir = C:\Wildfly\wildfly-10.0.0.Final\standalone
+	jboss.server.config.dir = C:\Wildfly\wildfly-10.0.0.Final\standalone\configuration
+	jboss.server.data.dir = C:\Wildfly\wildfly-10.0.0.Final\standalone\data
+	jboss.server.deploy.dir = C:\Wildfly\wildfly-10.0.0.Final\standalone\data\content
+	jboss.server.log.dir = C:\Wildfly\wildfly-10.0.0.Final\standalone\log
+	jboss.server.name = minint-kf12rjj
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Wildfly\wildfly-10.0.0.Final\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:/C:/Wildfly/wildfly-10.0.0.Final/standalone/configuration/logging.properties
+	module.path = C:/Wildfly/wildfly-10.0.0.Final/modules
+	org.jboss.boot.log.file = C:/Wildfly/wildfly-10.0.0.Final/standalone/log/boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = JBossTools: WildFly  8.x
+	redis_host = ja-redis.northeurope.cloudapp.azure.com
+	redis_password = <redacted>
+	redis_port = 6379
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jdk1.8.0_73\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_73\jre\classes
+	sun.boot.library.path = C:\Program Files\Java\jdk1.8.0_73\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp C:/Wildfly/wildfly-10.0.0.Final/modules -jaxpmodule javax.xml.jaxp-provider -jaxpmodule javax.xml.jaxp-provider org.jboss.as.standalone -b localhost --server-config=standalone.xml -Djboss.server.base.dir=C:\Wildfly\wildfly-10.0.0.Final\standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = GB
+	user.dir = C:\Wildfly\wildfly-10.0.0.Final\bin
+	user.home = C:\Users\jamarsto
+	user.language = en
+	user.name = jamarsto
+	user.script = 
+	user.timezone = Europe/London
+	user.variant = 
+2016-04-05 15:55:32,734 DEBUG [org.jboss.as.config] (MSC service thread 1-6) VM Arguments: -Dprogram.name=JBossTools: WildFly  8.x -Xms64m -Xmx512m -XX:MaxPermSize=256m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=C:/Wildfly/wildfly-10.0.0.Final/standalone/log/boot.log -Dlogging.configuration=file:/C:/Wildfly/wildfly-10.0.0.Final/standalone/configuration/logging.properties -Djboss.home.dir=C:/Wildfly/wildfly-10.0.0.Final -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dredis_host=ja-redis.northeurope.cloudapp.azure.com -Dredis_port=6379 -Dredis_password= -Djboss.http.port=8080 -Dfile.encoding=Cp1252 
+2016-04-05 15:55:34,034 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found ROOT.war in deployment directory. To trigger deployment create a file called ROOT.war.dodeploy
+2016-04-05 15:55:34,059 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2016-04-05 15:55:34,086 INFO  [org.xnio] (MSC service thread 1-6) XNIO version 3.3.4.Final
+2016-04-05 15:55:34,095 INFO  [org.xnio.nio] (MSC service thread 1-6) XNIO NIO Implementation Version 3.3.4.Final
+2016-04-05 15:55:34,180 INFO  [org.jboss.remoting] (MSC service thread 1-6) JBoss Remoting version 4.0.18.Final
+2016-04-05 15:55:34,228 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 56) WFLYWS0002: Activating WebServices Extension
+2016-04-05 15:55:34,242 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 54) WFLYTX0013: Node identifier property is set to the default value. Please make sure it is unique.
+2016-04-05 15:55:34,252 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 46) WFLYNAM0001: Activating Naming Subsystem
+2016-04-05 15:55:34,257 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 38) WFLYCLINF0001: Activating Infinispan subsystem.
+2016-04-05 15:55:34,268 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0003: Undertow 1.3.15.Final starting
+2016-04-05 15:55:34,276 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 53) WFLYSEC0002: Activating Security Subsystem
+2016-04-05 15:55:34,279 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0003: Undertow 1.3.15.Final starting
+2016-04-05 15:55:34,283 INFO  [org.jboss.as.security] (MSC service thread 1-6) WFLYSEC0001: Current PicketBox version=4.9.4.Final
+2016-04-05 15:55:34,292 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 37) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+2016-04-05 15:55:34,308 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 44) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2016-04-05 15:55:34,321 INFO  [org.jboss.as.connector] (MSC service thread 1-5) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.3.2.Final)
+2016-04-05 15:55:34,511 INFO  [org.jboss.as.naming] (MSC service thread 1-1) WFLYNAM0003: Starting Naming Service
+2016-04-05 15:55:34,511 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-5) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2016-04-05 15:55:34,522 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2016-04-05 15:55:34,537 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0018: Started Driver service with driver-name = h2
+2016-04-05 15:55:34,604 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0012: Started server default-server.
+2016-04-05 15:55:34,799 INFO  [org.jboss.as.ejb3] (MSC service thread 1-8) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 64 (per class), which is derived from thread worker pool sizing.
+2016-04-05 15:55:34,800 INFO  [org.jboss.as.ejb3] (MSC service thread 1-5) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 16 (per class), which is derived from the number of CPUs on this host.
+2016-04-05 15:55:34,923 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0004: Deploying JDBC-compliant driver class com.microsoft.sqlserver.jdbc.SQLServerDriver (version 4.0)
+2016-04-05 15:55:34,927 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0018: Started Driver service with driver-name = sqlserver
+2016-04-05 15:55:35,027 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0001: Bound data source [java:/jdbc/unmanaged/demo]
+2016-04-05 15:55:35,235 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2016-04-05 15:55:35,475 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-2) WFLYDS0013: Started FileSystemDeploymentService for directory C:\Wildfly\wildfly-10.0.0.Final\standalone\deployments
+2016-04-05 15:55:35,492 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "ROOT.war" (runtime-name: "ROOT.war")
+2016-04-05 15:55:35,853 INFO  [org.jboss.ws.common.management] (MSC service thread 1-1) JBWS022052: Starting JBossWS 5.1.3.Final (Apache CXF 3.1.4) 
+2016-04-05 15:55:35,867 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2016-04-05 15:55:35,867 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0001: Bound data source [java:/jdbc/managed/demo]
+2016-04-05 15:55:35,902 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-6) ISPN000128: Infinispan version: Infinispan 'Mahou' 8.1.0.Final
+2016-04-05 15:55:37,244 INFO  [org.jboss.as.jpa] (MSC service thread 1-3) WFLYJPA0002: Read persistence.xml for demo-unit
+2016-04-05 15:55:37,757 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 58) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'ROOT.war#demo-unit'
+2016-04-05 15:55:37,801 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 58) HHH000204: Processing PersistenceUnitInfo [
+	name: demo-unit
+	...]
+2016-04-05 15:55:37,915 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) WFLYWELD0003: Processing weld deployment ROOT.war
+2016-04-05 15:55:37,993 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 58) HHH000412: Hibernate Core {5.0.7.Final}
+2016-04-05 15:55:37,995 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 58) HHH000206: hibernate.properties not found
+2016-04-05 15:55:37,998 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 58) HHH000021: Bytecode provider name : javassist
+2016-04-05 15:55:38,004 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-5) HV000001: Hibernate Validator 5.2.3.Final
+2016-04-05 15:55:38,058 INFO  [org.hibernate.orm.deprecation] (ServerService Thread Pool -- 58) HHH90000001: Found usage of deprecated setting for specifying Scanner [hibernate.ejb.resource_scanner]; use [hibernate.archive.scanner] instead
+2016-04-05 15:55:38,074 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 58) HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2016-04-05 15:55:38,106 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-5) WFLYEJB0473: JNDI bindings for session bean named 'SimpleStateless' in deployment unit 'deployment "ROOT.war"' are as follows:
+
+	java:global/ROOT/SimpleStateless!com.microsoft.azure.javaee.SimpleStateless
+	java:app/ROOT/SimpleStateless!com.microsoft.azure.javaee.SimpleStateless
+	java:module/SimpleStateless!com.microsoft.azure.javaee.SimpleStateless
+	java:global/ROOT/SimpleStateless
+	java:app/ROOT/SimpleStateless
+	java:module/SimpleStateless
+
+2016-04-05 15:55:38,355 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 58) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2016-04-05 15:55:38,357 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 58) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2016-04-05 15:55:38,358 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) WFLYWELD0006: Starting Services for CDI deployment: ROOT.war
+2016-04-05 15:55:38,358 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 58) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2016-04-05 15:55:38,359 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 58) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2016-04-05 15:55:38,410 INFO  [org.jboss.weld.Version] (MSC service thread 1-5) WELD-000900: 2.3.2 (Final)
+2016-04-05 15:55:38,444 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0018: Host default-host starting
+2016-04-05 15:55:38,460 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) WFLYWELD0009: Starting weld service for deployment ROOT.war
+2016-04-05 15:55:38,657 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 59) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'ROOT.war#demo-unit'
+2016-04-05 15:55:38,711 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 58) WFLYCLINF0002: Started client-mappings cache from ejb container
+2016-04-05 15:55:39,453 WARN  [org.hibernate.engine.jdbc.dialect.internal.StandardDialectResolver] (ServerService Thread Pool -- 59) HHH000385: Unknown Microsoft SQL Server major version [12] using SQL Server 2000 dialect
+2016-04-05 15:55:39,466 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 59) HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2016-04-05 15:55:39,638 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 59) Envers integration enabled? : true
+2016-04-05 15:55:40,775 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 58) No Spring WebApplicationInitializer types detected on classpath
+2016-04-05 15:55:40,796 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 58) Initializing Spring root WebApplicationContext
+2016-04-05 15:55:40,797 INFO  [org.springframework.web.context.ContextLoader] (ServerService Thread Pool -- 58) Root WebApplicationContext: initialization started
+2016-04-05 15:55:40,851 INFO  [org.springframework.web.context.support.XmlWebApplicationContext] (ServerService Thread Pool -- 58) Refreshing Root WebApplicationContext: startup date [Tue Apr 05 15:55:40 BST 2016]; root of context hierarchy
+2016-04-05 15:55:40,885 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] (ServerService Thread Pool -- 58) Loading XML bean definitions from ServletContext resource [/WEB-INF/spring/authentication.xml]
+2016-04-05 15:55:40,994 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] (ServerService Thread Pool -- 58) Loading XML bean definitions from ServletContext resource [/WEB-INF/spring/session.xml]
+2016-04-05 15:55:41,281 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] (ServerService Thread Pool -- 58) JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2016-04-05 15:55:41,678 INFO  [org.springframework.context.support.DefaultLifecycleProcessor] (ServerService Thread Pool -- 58) Starting beans in phase 2147483647
+2016-04-05 15:55:41,715 INFO  [org.springframework.web.context.ContextLoader] (ServerService Thread Pool -- 58) Root WebApplicationContext: initialization completed in 917 ms
+2016-04-05 15:55:41,972 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 58) Initializing Mojarra 2.2.12-jbossorg-2 20150729-1131 for context ''
+2016-04-05 15:55:43,450 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 58) WFLYUT0021: Registered web context: /
+2016-04-05 15:55:43,519 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "ROOT.war" (runtime-name : "ROOT.war")
+2016-04-05 15:55:43,681 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2016-04-05 15:55:43,681 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2016-04-05 15:55:43,681 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 10.0.0.Final (WildFly Core 2.0.10.Final) started in 11558ms - Started 439 of 708 services (381 services are lazy, passive or on-demand)
+2016-04-05 16:01:19,408 INFO  [org.jboss.as.server] (management-handler-thread - 6) WFLYSRV0211: Suspending server with 0ms timeout.
+2016-04-05 16:01:19,424 INFO  [org.jboss.as.server] (Thread-2) WFLYSRV0220: Server shutdown has been requested.
+2016-04-05 16:01:19,532 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 63) WFLYUT0022: Unregistered web context: /
+2016-04-05 16:01:19,543 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 63) Closing Spring root WebApplicationContext
+2016-04-05 16:01:19,544 INFO  [org.springframework.web.context.support.XmlWebApplicationContext] (ServerService Thread Pool -- 63) Closing Root WebApplicationContext: startup date [Tue Apr 05 15:55:40 BST 2016]; root of context hierarchy
+2016-04-05 16:01:19,546 INFO  [org.springframework.context.support.DefaultLifecycleProcessor] (ServerService Thread Pool -- 63) Stopping beans in phase 2147483647
+2016-04-05 16:01:24,548 WARN  [org.springframework.data.redis.listener.RedisMessageListenerContainer] (ServerService Thread Pool -- 63) Unable to close connection. Subscription task still running
+2016-04-05 16:01:24,600 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0019: Host default-host stopping
+2016-04-05 16:01:24,621 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) WFLYWELD0010: Stopping weld service for deployment ROOT.war
+2016-04-05 16:01:24,671 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2016-04-05 16:01:24,675 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 66) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'ROOT.war#demo-unit'
+2016-04-05 16:01:24,677 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2016-04-05 16:01:24,683 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 64) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'ROOT.war#demo-unit'
+2016-04-05 16:01:24,685 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0010: Unbound data source [java:/jdbc/managed/demo]
+2016-04-05 16:01:24,685 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0010: Unbound data source [java:/jdbc/unmanaged/demo]
+2016-04-05 16:01:24,692 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0008: Undertow HTTP listener default suspending
+2016-04-05 16:01:24,693 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 127.0.0.1:8080
+2016-04-05 16:01:24,693 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 64) WFLYCLINF0003: Stopped client-mappings cache from ejb container
+2016-04-05 16:01:24,695 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0004: Undertow 1.3.15.Final stopping
+2016-04-05 16:01:24,699 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0019: Stopped Driver service with driver-name = sqlserver
+2016-04-05 16:01:24,730 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0028: Stopped deployment ROOT.war (runtime-name: ROOT.war) in 5287ms
+2016-04-05 16:01:24,733 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0050: WildFly Full 10.0.0.Final (WildFly Core 2.0.10.Final) stopped in 5284ms
+2016-04-05 16:01:26,652 INFO  [org.jboss.modules] (main) JBoss Modules version 1.5.1.Final
+2016-04-05 16:01:26,836 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final
+2016-04-05 16:01:26,898 INFO  [org.jboss.as] (MSC service thread 1-6) WFLYSRV0049: WildFly Full 10.0.0.Final (WildFly Core 2.0.10.Final) starting
+2016-04-05 16:01:26,899 DEBUG [org.jboss.as.config] (MSC service thread 1-6) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\Wildfly\wildfly-10.0.0.Final\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jdk1.8.0_73\jre\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jdk1.8.0_73\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jdk1.8.0_73\jre
+	java.io.tmpdir = C:\Users\jamarsto\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk1.8.0_73\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;native;C:/Program Files/Java/jre1.8.0_77/bin/server;C:/Program Files/Java/jre1.8.0_77/bin;C:/Program Files/Java/jre1.8.0_77/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files (x86)\nodejs\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SDKs\Azure\CLI\wbin;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft Emulator Manager\1.0\;C:\Program Files\Git\cmd;C:\Program Files\Microsoft DNX\Dnvm\;C:\Users\jamarsto\AppData\Roaming\npm;C:\eclipse;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_73-b02
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_73
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.73-b02
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = C:\Wildfly\wildfly-10.0.0.Final
+	jboss.host.name = minint-kf12rjj
+	jboss.http.port = 8080
+	jboss.modules.dir = C:\Wildfly\wildfly-10.0.0.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = minint-kf12rjj
+	jboss.qualified.host.name = minint-kf12rjj
+	jboss.server.base.dir = C:\Wildfly\wildfly-10.0.0.Final\standalone
+	jboss.server.config.dir = C:\Wildfly\wildfly-10.0.0.Final\standalone\configuration
+	jboss.server.data.dir = C:\Wildfly\wildfly-10.0.0.Final\standalone\data
+	jboss.server.deploy.dir = C:\Wildfly\wildfly-10.0.0.Final\standalone\data\content
+	jboss.server.log.dir = C:\Wildfly\wildfly-10.0.0.Final\standalone\log
+	jboss.server.name = minint-kf12rjj
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Wildfly\wildfly-10.0.0.Final\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:/C:/Wildfly/wildfly-10.0.0.Final/standalone/configuration/logging.properties
+	module.path = C:/Wildfly/wildfly-10.0.0.Final/modules
+	org.jboss.boot.log.file = C:/Wildfly/wildfly-10.0.0.Final/standalone/log/boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = JBossTools: WildFly  8.x
+	redis_host = ja-redis.northeurope.cloudapp.azure.com
+	redis_password = <redacted>
+	redis_port = 6379
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jdk1.8.0_73\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_73\jre\classes
+	sun.boot.library.path = C:\Program Files\Java\jdk1.8.0_73\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp C:/Wildfly/wildfly-10.0.0.Final/modules -jaxpmodule javax.xml.jaxp-provider -jaxpmodule javax.xml.jaxp-provider org.jboss.as.standalone -b localhost --server-config=standalone.xml -Djboss.server.base.dir=C:\Wildfly\wildfly-10.0.0.Final\standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = GB
+	user.dir = C:\Wildfly\wildfly-10.0.0.Final\bin
+	user.home = C:\Users\jamarsto
+	user.language = en
+	user.name = jamarsto
+	user.script = 
+	user.timezone = Europe/London
+	user.variant = 
+2016-04-05 16:01:26,900 DEBUG [org.jboss.as.config] (MSC service thread 1-6) VM Arguments: -Dprogram.name=JBossTools: WildFly  8.x -Xms64m -Xmx512m -XX:MaxPermSize=256m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=C:/Wildfly/wildfly-10.0.0.Final/standalone/log/boot.log -Dlogging.configuration=file:/C:/Wildfly/wildfly-10.0.0.Final/standalone/configuration/logging.properties -Djboss.home.dir=C:/Wildfly/wildfly-10.0.0.Final -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dredis_host=ja-redis.northeurope.cloudapp.azure.com -Dredis_port=6379 -Dredis_password= -Djboss.http.port=8080 -Dfile.encoding=Cp1252 
+2016-04-05 16:01:28,212 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found ROOT.war in deployment directory. To trigger deployment create a file called ROOT.war.dodeploy
+2016-04-05 16:01:28,229 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2016-04-05 16:01:28,243 INFO  [org.xnio] (MSC service thread 1-2) XNIO version 3.3.4.Final
+2016-04-05 16:01:28,250 INFO  [org.xnio.nio] (MSC service thread 1-2) XNIO NIO Implementation Version 3.3.4.Final
+2016-04-05 16:01:28,308 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 56) WFLYWS0002: Activating WebServices Extension
+2016-04-05 16:01:28,314 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 46) WFLYNAM0001: Activating Naming Subsystem
+2016-04-05 16:01:28,316 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 54) WFLYTX0013: Node identifier property is set to the default value. Please make sure it is unique.
+2016-04-05 16:01:28,320 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 53) WFLYSEC0002: Activating Security Subsystem
+2016-04-05 16:01:28,325 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 38) WFLYCLINF0001: Activating Infinispan subsystem.
+2016-04-05 16:01:28,365 INFO  [org.jboss.as.security] (MSC service thread 1-4) WFLYSEC0001: Current PicketBox version=4.9.4.Final
+2016-04-05 16:01:28,380 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 44) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2016-04-05 16:01:28,381 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 37) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+2016-04-05 16:01:28,387 INFO  [org.jboss.as.connector] (MSC service thread 1-3) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.3.2.Final)
+2016-04-05 16:01:28,406 INFO  [org.jboss.remoting] (MSC service thread 1-2) JBoss Remoting version 4.0.18.Final
+2016-04-05 16:01:28,519 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2016-04-05 16:01:28,551 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0018: Started Driver service with driver-name = h2
+2016-04-05 16:01:28,552 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0003: Undertow 1.3.15.Final starting
+2016-04-05 16:01:28,554 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0003: Undertow 1.3.15.Final starting
+2016-04-05 16:01:28,578 INFO  [org.jboss.as.naming] (MSC service thread 1-3) WFLYNAM0003: Starting Naming Service
+2016-04-05 16:01:28,599 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-3) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2016-04-05 16:01:28,800 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0012: Started server default-server.
+2016-04-05 16:01:28,854 INFO  [org.jboss.as.ejb3] (MSC service thread 1-3) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 64 (per class), which is derived from thread worker pool sizing.
+2016-04-05 16:01:28,864 INFO  [org.jboss.as.ejb3] (MSC service thread 1-4) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 16 (per class), which is derived from the number of CPUs on this host.
+2016-04-05 16:01:28,973 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0004: Deploying JDBC-compliant driver class com.microsoft.sqlserver.jdbc.SQLServerDriver (version 4.0)
+2016-04-05 16:01:28,975 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0018: Started Driver service with driver-name = sqlserver
+2016-04-05 16:01:29,098 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0001: Bound data source [java:/jdbc/unmanaged/demo]
+2016-04-05 16:01:29,297 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2016-04-05 16:01:29,789 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-6) WFLYDS0013: Started FileSystemDeploymentService for directory C:\Wildfly\wildfly-10.0.0.Final\standalone\deployments
+2016-04-05 16:01:29,822 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "ROOT.war" (runtime-name: "ROOT.war")
+2016-04-05 16:01:29,835 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-1) ISPN000128: Infinispan version: Infinispan 'Mahou' 8.1.0.Final
+2016-04-05 16:01:29,835 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-8) ISPN000128: Infinispan version: Infinispan 'Mahou' 8.1.0.Final
+2016-04-05 16:01:29,842 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-7) ISPN000128: Infinispan version: Infinispan 'Mahou' 8.1.0.Final
+2016-04-05 16:01:29,879 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2016-04-05 16:01:29,881 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0001: Bound data source [java:/jdbc/managed/demo]
+2016-04-05 16:01:30,010 INFO  [org.jboss.ws.common.management] (MSC service thread 1-4) JBWS022052: Starting JBossWS 5.1.3.Final (Apache CXF 3.1.4) 
+2016-04-05 16:01:31,271 INFO  [org.jboss.as.jpa] (MSC service thread 1-8) WFLYJPA0002: Read persistence.xml for demo-unit
+2016-04-05 16:01:31,431 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 59) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'ROOT.war#demo-unit'
+2016-04-05 16:01:31,463 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 59) HHH000204: Processing PersistenceUnitInfo [
+	name: demo-unit
+	...]
+2016-04-05 16:01:31,516 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0003: Processing weld deployment ROOT.war
+2016-04-05 16:01:31,839 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 59) HHH000412: Hibernate Core {5.0.7.Final}
+2016-04-05 16:01:31,840 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 59) HHH000206: hibernate.properties not found
+2016-04-05 16:01:31,842 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 59) HHH000021: Bytecode provider name : javassist
+2016-04-05 16:01:31,884 INFO  [org.hibernate.orm.deprecation] (ServerService Thread Pool -- 59) HHH90000001: Found usage of deprecated setting for specifying Scanner [hibernate.ejb.resource_scanner]; use [hibernate.archive.scanner] instead
+2016-04-05 16:01:31,914 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 59) HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2016-04-05 16:01:31,919 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-2) HV000001: Hibernate Validator 5.2.3.Final
+2016-04-05 16:01:32,020 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'SimpleStateless' in deployment unit 'deployment "ROOT.war"' are as follows:
+
+	java:global/ROOT/SimpleStateless!com.microsoft.azure.javaee.SimpleStateless
+	java:app/ROOT/SimpleStateless!com.microsoft.azure.javaee.SimpleStateless
+	java:module/SimpleStateless!com.microsoft.azure.javaee.SimpleStateless
+	java:global/ROOT/SimpleStateless
+	java:app/ROOT/SimpleStateless
+	java:module/SimpleStateless
+
+2016-04-05 16:01:32,273 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 59) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2016-04-05 16:01:32,274 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 59) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2016-04-05 16:01:32,275 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 59) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2016-04-05 16:01:32,276 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 59) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2016-04-05 16:01:32,286 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0006: Starting Services for CDI deployment: ROOT.war
+2016-04-05 16:01:32,324 INFO  [org.jboss.weld.Version] (MSC service thread 1-2) WELD-000900: 2.3.2 (Final)
+2016-04-05 16:01:32,355 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0018: Host default-host starting
+2016-04-05 16:01:32,368 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0009: Starting weld service for deployment ROOT.war
+2016-04-05 16:01:32,532 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 58) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'ROOT.war#demo-unit'
+2016-04-05 16:01:32,581 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 59) WFLYCLINF0002: Started client-mappings cache from ejb container
+2016-04-05 16:01:33,295 WARN  [org.hibernate.engine.jdbc.dialect.internal.StandardDialectResolver] (ServerService Thread Pool -- 58) HHH000385: Unknown Microsoft SQL Server major version [12] using SQL Server 2000 dialect
+2016-04-05 16:01:33,303 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 58) HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2016-04-05 16:01:33,450 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 58) Envers integration enabled? : true
+2016-04-05 16:01:34,508 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 58) No Spring WebApplicationInitializer types detected on classpath
+2016-04-05 16:01:34,518 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 58) Initializing Spring root WebApplicationContext
+2016-04-05 16:01:34,519 INFO  [org.springframework.web.context.ContextLoader] (ServerService Thread Pool -- 58) Root WebApplicationContext: initialization started
+2016-04-05 16:01:34,578 INFO  [org.springframework.web.context.support.XmlWebApplicationContext] (ServerService Thread Pool -- 58) Refreshing Root WebApplicationContext: startup date [Tue Apr 05 16:01:34 BST 2016]; root of context hierarchy
+2016-04-05 16:01:34,612 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] (ServerService Thread Pool -- 58) Loading XML bean definitions from ServletContext resource [/WEB-INF/spring/authentication.xml]
+2016-04-05 16:01:34,734 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] (ServerService Thread Pool -- 58) Loading XML bean definitions from ServletContext resource [/WEB-INF/spring/session.xml]
+2016-04-05 16:01:34,980 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] (ServerService Thread Pool -- 58) JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2016-04-05 16:01:35,356 INFO  [org.springframework.context.support.DefaultLifecycleProcessor] (ServerService Thread Pool -- 58) Starting beans in phase 2147483647
+2016-04-05 16:01:35,394 INFO  [org.springframework.web.context.ContextLoader] (ServerService Thread Pool -- 58) Root WebApplicationContext: initialization completed in 874 ms
+2016-04-05 16:01:35,477 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 58) Initializing Mojarra 2.2.12-jbossorg-2 20150729-1131 for context ''
+2016-04-05 16:01:37,047 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 58) WFLYUT0021: Registered web context: /
+2016-04-05 16:01:37,100 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "ROOT.war" (runtime-name : "ROOT.war")
+2016-04-05 16:01:37,248 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2016-04-05 16:01:37,249 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2016-04-05 16:01:37,249 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 10.0.0.Final (WildFly Core 2.0.10.Final) started in 10939ms - Started 439 of 708 services (381 services are lazy, passive or on-demand)
+2016-04-05 16:01:42,582 INFO  [org.jboss.as.server] (management-handler-thread - 4) WFLYSRV0211: Suspending server with 0ms timeout.
+2016-04-05 16:01:42,590 INFO  [org.jboss.as.server] (Thread-2) WFLYSRV0220: Server shutdown has been requested.
+2016-04-05 16:01:42,658 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 29) WFLYUT0022: Unregistered web context: /
+2016-04-05 16:01:42,667 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 29) Closing Spring root WebApplicationContext
+2016-04-05 16:01:42,668 INFO  [org.springframework.web.context.support.XmlWebApplicationContext] (ServerService Thread Pool -- 29) Closing Root WebApplicationContext: startup date [Tue Apr 05 16:01:34 BST 2016]; root of context hierarchy
+2016-04-05 16:01:42,670 INFO  [org.springframework.context.support.DefaultLifecycleProcessor] (ServerService Thread Pool -- 29) Stopping beans in phase 2147483647
+2016-04-05 16:01:42,758 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0019: Host default-host stopping
+2016-04-05 16:01:42,771 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) WFLYWELD0010: Stopping weld service for deployment ROOT.war
+2016-04-05 16:01:42,820 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2016-04-05 16:01:42,823 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 3) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'ROOT.war#demo-unit'
+2016-04-05 16:01:42,825 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2016-04-05 16:01:42,846 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 28) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'ROOT.war#demo-unit'
+2016-04-05 16:01:42,847 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0010: Unbound data source [java:/jdbc/unmanaged/demo]
+2016-04-05 16:01:42,847 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0010: Unbound data source [java:/jdbc/managed/demo]
+2016-04-05 16:01:42,851 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 3) WFLYCLINF0003: Stopped client-mappings cache from ejb container
+2016-04-05 16:01:42,856 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0008: Undertow HTTP listener default suspending
+2016-04-05 16:01:42,859 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 127.0.0.1:8080
+2016-04-05 16:01:42,863 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0004: Undertow 1.3.15.Final stopping
+2016-04-05 16:01:42,883 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0019: Stopped Driver service with driver-name = sqlserver
+2016-04-05 16:01:42,910 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0028: Stopped deployment ROOT.war (runtime-name: ROOT.war) in 294ms
+2016-04-05 16:01:42,918 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0050: WildFly Full 10.0.0.Final (WildFly Core 2.0.10.Final) stopped in 302ms

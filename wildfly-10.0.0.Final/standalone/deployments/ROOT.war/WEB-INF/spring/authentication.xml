@@ -89,10 +89,14 @@
 		<property name="timeStampFactory" ref="timeStampFactory" />
 	</bean>
 
-	<bean name="authenticationFilter" class="com.microsoft.azure.oidc.AuthenticationFilter">
+	<bean name="authenticationFilterHelper" class="com.microsoft.azure.oidc.filter.impl.SpringAuthenticationFilterHelper">
 		<property name="applicationSettingsLoader" ref="applicationSettingsLoader" />
 		<property name="configurationLoader" ref="configurationLoader" />
+	</bean>
+
+	<bean name="authenticationFilter" class="com.microsoft.azure.oidc.filter.impl.AuthenticationFilter">
 		<property name="tokenParser" ref="tokenParser" />
 		<property name="tokenValidator" ref="tokenValidator" />
+		<property name="authenticationFilterHelper" ref="authenticationFilterHelper" />
 	</bean>
 </beans>

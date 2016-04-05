@@ -6,14 +6,9 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
 		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
 
-	<!-- tag::beans[] -->
-
-	<!--1-->
 	<context:annotation-config/>
 	<context:property-placeholder/>
-	<bean class="org.springframework.session.data.redis.config.annotation.web.http.RedisHttpSessionConfiguration"/>
 
-	<!--2-->
+	<bean class="org.springframework.session.data.redis.config.annotation.web.http.RedisHttpSessionConfiguration"/>
 	<bean class="org.springframework.data.redis.connection.jedis.JedisConnectionFactory" p:host-name="#{systemEnvironment['REDIS_HOST']}" p:port="#{systemEnvironment['REDIS_PORT']}" />
-	<!-- end::beans[] -->
 </beans>

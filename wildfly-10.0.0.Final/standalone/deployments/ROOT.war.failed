@@ -1,3 +1,0 @@
-"{\"WFLYCTL0080: Failed services\" => {\"jboss.persistenceunit.\\\"ROOT.war#demo-unit\\\"\" => \"org.jboss.msc.service.StartException in service jboss.persistenceunit.\\\"ROOT.war#demo-unit\\\": org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
-    Caused by: org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
-    Caused by: org.hibernate.HibernateException: Access to DialectResolutionInfo cannot be null when 'hibernate.dialect' not set\"}}"

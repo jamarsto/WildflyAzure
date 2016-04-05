@@ -8,11 +8,39 @@
     </param-value>
   </context-param>
   <filter>
-  	<filter-name>authenticationFilter</filter-name>
-  	<filter-class>org.springframework.web.filter.DelegatingFilterProxy</filter-class>
+  	<filter-name>b2cAuthenticationFilter</filter-name>
+  	<filter-class>com.microsoft.azure.filter.B2CAuthenticationFilter</filter-class>
+  	<init-param>
+  		<param-name>audience</param-name>
+  		<param-value>4c0fbcb7-52a3-4981-878e-69da0191c867</param-value>
+  	</init-param>
+  	<init-param>
+  		<param-name>tenant</param-name>
+  		<param-value>jasonb2c</param-value>
+  	</init-param>
+  	<init-param>
+  		<param-name>policy</param-name>
+  		<param-value>B2C_1_SignUpOrIn</param-value>
+  	</init-param>
+  	<init-param>
+  		<param-name>redirect</param-name>
+  		<param-value>https%3A%2F%2Fjm-java.azurewebsites.net%2F</param-value>
+  	</init-param>
+  	<init-param>
+  		<param-name>mode</param-name>
+  		<param-value>form_post</param-value>
+  	</init-param>
+  	<init-param>
+  		<param-name>domain</param-name>
+  		<param-value>jm-java.azurewebsites.net</param-value>
+  	</init-param>
+  	<init-param>
+  		<param-name>client_secret</param-name>
+  		<param-value>%Tl,\y2tI^6\,FR;</param-value>
+  	</init-param>
   </filter>
   <filter-mapping>
-  	<filter-name>authenticationFilter</filter-name>
+  	<filter-name>b2cAuthenticationFilter</filter-name>
   	<url-pattern>/*</url-pattern>
   	<dispatcher>REQUEST</dispatcher>
     <dispatcher>FORWARD</dispatcher>

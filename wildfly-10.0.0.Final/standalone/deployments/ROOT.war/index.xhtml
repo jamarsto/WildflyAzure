@@ -32,7 +32,7 @@
 			#{movie.year}
 		</h:column>
 	</h:dataTable>
-	<p>User Name: #{request.remoteUser}<br />User Identifier: {request.userPrincipal.name}<br />User In Admin Role: #{request.isUserInRole('Admin')}</p>
+	<p>User Name: #{request.remoteUser}<br />User Identifier: #{request.userPrincipal.name}<br />User In Admin Role: #{request.isUserInRole('Admin')}</p>
 	<p> #{request.scheme}://#{request.serverName}:#{request.requestURI}?#{request.queryString}</p>
 </h:body>
 </html>

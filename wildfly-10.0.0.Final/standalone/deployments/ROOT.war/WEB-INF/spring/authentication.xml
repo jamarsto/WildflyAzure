@@ -35,6 +35,8 @@
 		class="com.microsoft.azure.oidc.token.signature.impl.SpringSignatureFactory" />
 	<bean name="payloadFactory"
 		class="com.microsoft.azure.oidc.token.payload.impl.SpringPayloadFactory" />
+	<bean name="emailFactory"
+		class="com.microsoft.azure.oidc.token.email.impl.SpringEmailFactory" />
 
 	<bean name="applicationSettingsLoader"
 		class="com.microsoft.azure.oidc.application.settings.impl.SpringApplicationSettingsLoader">
@@ -72,6 +74,7 @@
 		<property name="keyNameFactory" ref="keyNameFactory" />
 		<property name="algorithmFactory" ref="algorithmFactory" />
 		<property name="timeStampFactory" ref="timeStampFactory" />
+		<property name="emailFactory" ref="emailFactory" />
 		<property name="issuerFactory" ref="issuerFactory" />
 		<property name="iDFactory" ref="iDFactory" />
 		<property name="payloadFactory" ref="payloadFactory" />

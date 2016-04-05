@@ -104,10 +104,7 @@
             <logger category="org.jboss.as.config">
                 <level name="DEBUG"/>
             </logger>
-            <logger category="com.microsoft.azure.b2c">
-                <level name="DEBUG"/>
-            </logger>
-            <logger category="com.microsoft.azure.filter">
+            <logger category="com.microsoft.azure">
                 <level name="DEBUG"/>
             </logger>
             <logger category="sun.rmi">

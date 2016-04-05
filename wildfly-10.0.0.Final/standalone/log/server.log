@@ -1,7 +1,7 @@
-2016-04-04 13:21:02,947 INFO  [org.jboss.modules] (main) JBoss Modules version 1.5.1.Final
-2016-04-04 13:21:03,744 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final
-2016-04-04 13:21:03,807 INFO  [org.jboss.as] (MSC service thread 1-6) WFLYSRV0049: WildFly Full 10.0.0.Final (WildFly Core 2.0.10.Final) starting
-2016-04-04 13:21:03,808 DEBUG [org.jboss.as.config] (MSC service thread 1-6) Configured system properties:
+2016-04-05 15:27:54,924 INFO  [org.jboss.modules] (main) JBoss Modules version 1.5.1.Final
+2016-04-05 15:27:55,769 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final
+2016-04-05 15:27:55,871 INFO  [org.jboss.as] (MSC service thread 1-7) WFLYSRV0049: WildFly Full 10.0.0.Final (WildFly Core 2.0.10.Final) starting
+2016-04-05 15:27:55,873 DEBUG [org.jboss.as.config] (MSC service thread 1-7) Configured system properties:
 	awt.toolkit = sun.awt.windows.WToolkit
 	file.encoding = Cp1252
 	file.encoding.pkg = sun.io
@@ -99,271 +99,107 @@
 	user.script = 
 	user.timezone = Europe/London
 	user.variant = 
-2016-04-04 13:21:03,809 DEBUG [org.jboss.as.config] (MSC service thread 1-6) VM Arguments: -Dprogram.name=JBossTools: WildFly  8.x -Xms64m -Xmx512m -XX:MaxPermSize=256m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=C:/Wildfly/wildfly-10.0.0.Final/standalone/log/boot.log -Dlogging.configuration=file:/C:/Wildfly/wildfly-10.0.0.Final/standalone/configuration/logging.properties -Djboss.home.dir=C:/Wildfly/wildfly-10.0.0.Final -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dredis_host=ja-redis.northeurope.cloudapp.azure.com -Dredis_port=6379 -Dredis_password= -Djboss.http.port=8080 -Dfile.encoding=Cp1252 
-2016-04-04 13:21:08,180 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found ROOT.war in deployment directory. To trigger deployment create a file called ROOT.war.dodeploy
-2016-04-04 13:21:08,208 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
-2016-04-04 13:21:08,234 INFO  [org.xnio] (MSC service thread 1-4) XNIO version 3.3.4.Final
-2016-04-04 13:21:08,242 INFO  [org.xnio.nio] (MSC service thread 1-4) XNIO NIO Implementation Version 3.3.4.Final
-2016-04-04 13:21:08,321 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 53) WFLYSEC0002: Activating Security Subsystem
-2016-04-04 13:21:08,321 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 46) WFLYNAM0001: Activating Naming Subsystem
-2016-04-04 13:21:08,331 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 54) WFLYTX0013: Node identifier property is set to the default value. Please make sure it is unique.
-2016-04-04 13:21:08,333 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 56) WFLYWS0002: Activating WebServices Extension
-2016-04-04 13:21:08,330 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 38) WFLYCLINF0001: Activating Infinispan subsystem.
-2016-04-04 13:21:08,352 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 44) WFLYJSF0007: Activated the following JSF Implementations: [main]
-2016-04-04 13:21:08,377 INFO  [org.jboss.as.security] (MSC service thread 1-8) WFLYSEC0001: Current PicketBox version=4.9.4.Final
-2016-04-04 13:21:08,405 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 37) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
-2016-04-04 13:21:08,440 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0003: Undertow 1.3.15.Final starting
-2016-04-04 13:21:08,451 INFO  [org.jboss.as.naming] (MSC service thread 1-2) WFLYNAM0003: Starting Naming Service
-2016-04-04 13:21:08,454 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0003: Undertow 1.3.15.Final starting
-2016-04-04 13:21:08,465 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-8) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
-2016-04-04 13:21:08,465 INFO  [org.jboss.as.connector] (MSC service thread 1-2) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.3.2.Final)
-2016-04-04 13:21:08,690 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
-2016-04-04 13:21:08,703 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0018: Started Driver service with driver-name = h2
-2016-04-04 13:21:08,711 INFO  [org.jboss.remoting] (MSC service thread 1-7) JBoss Remoting version 4.0.18.Final
-2016-04-04 13:21:08,902 INFO  [org.jboss.as.ejb3] (MSC service thread 1-8) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 64 (per class), which is derived from thread worker pool sizing.
-2016-04-04 13:21:08,902 INFO  [org.jboss.as.ejb3] (MSC service thread 1-4) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 16 (per class), which is derived from the number of CPUs on this host.
-2016-04-04 13:21:09,051 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0012: Started server default-server.
-2016-04-04 13:21:09,057 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0004: Deploying JDBC-compliant driver class com.microsoft.sqlserver.jdbc.SQLServerDriver (version 4.0)
-2016-04-04 13:21:09,061 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0018: Started Driver service with driver-name = sqlserver
-2016-04-04 13:21:09,239 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0001: Bound data source [java:/jdbc/unmanaged/demo]
-2016-04-04 13:21:09,470 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
-2016-04-04 13:21:09,740 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
-2016-04-04 13:21:09,742 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0001: Bound data source [java:/jdbc/managed/demo]
-2016-04-04 13:21:09,904 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-4) WFLYDS0013: Started FileSystemDeploymentService for directory C:\Wildfly\wildfly-10.0.0.Final\standalone\deployments
-2016-04-04 13:21:09,977 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0027: Starting deployment of "ROOT.war" (runtime-name: "ROOT.war")
-2016-04-04 13:21:10,085 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-8) ISPN000128: Infinispan version: Infinispan 'Mahou' 8.1.0.Final
-2016-04-04 13:21:10,895 INFO  [org.jboss.ws.common.management] (MSC service thread 1-6) JBWS022052: Starting JBossWS 5.1.3.Final (Apache CXF 3.1.4) 
-2016-04-04 13:21:11,756 INFO  [org.jboss.as.jpa] (MSC service thread 1-3) WFLYJPA0002: Read persistence.xml for demo-unit
-2016-04-04 13:21:12,693 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 59) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'ROOT.war#demo-unit'
-2016-04-04 13:21:12,725 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 59) HHH000204: Processing PersistenceUnitInfo [
-	name: demo-unit
-	...]
-2016-04-04 13:21:12,795 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0003: Processing weld deployment ROOT.war
-2016-04-04 13:21:12,831 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 59) HHH000412: Hibernate Core {5.0.7.Final}
-2016-04-04 13:21:12,834 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 59) HHH000206: hibernate.properties not found
-2016-04-04 13:21:12,843 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 59) HHH000021: Bytecode provider name : javassist
-2016-04-04 13:21:12,909 INFO  [org.hibernate.orm.deprecation] (ServerService Thread Pool -- 59) HHH90000001: Found usage of deprecated setting for specifying Scanner [hibernate.ejb.resource_scanner]; use [hibernate.archive.scanner] instead
-2016-04-04 13:21:12,924 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 59) HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
-2016-04-04 13:21:13,231 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-3) HV000001: Hibernate Validator 5.2.3.Final
-2016-04-04 13:21:13,288 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'SimpleStateless' in deployment unit 'deployment "ROOT.war"' are as follows:
-
-	java:global/ROOT/SimpleStateless!com.microsoft.azure.javaee.SimpleStateless
-	java:app/ROOT/SimpleStateless!com.microsoft.azure.javaee.SimpleStateless
-	java:module/SimpleStateless!com.microsoft.azure.javaee.SimpleStateless
-	java:global/ROOT/SimpleStateless
-	java:app/ROOT/SimpleStateless
-	java:module/SimpleStateless
-
-2016-04-04 13:21:13,434 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 59) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
-2016-04-04 13:21:13,436 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 59) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
-2016-04-04 13:21:13,439 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 59) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
-2016-04-04 13:21:13,440 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 59) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
-2016-04-04 13:21:13,449 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) WFLYWELD0006: Starting Services for CDI deployment: ROOT.war
-2016-04-04 13:21:13,486 INFO  [org.jboss.weld.Version] (MSC service thread 1-1) WELD-000900: 2.3.2 (Final)
-2016-04-04 13:21:13,507 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0018: Host default-host starting
-2016-04-04 13:21:13,521 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) WFLYWELD0009: Starting weld service for deployment ROOT.war
-2016-04-04 13:21:13,713 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 58) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'ROOT.war#demo-unit'
-2016-04-04 13:21:13,746 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 59) WFLYCLINF0002: Started client-mappings cache from ejb container
-2016-04-04 13:21:14,637 WARN  [org.jboss.jca.core.connectionmanager.pool.strategy.OnePool] (ServerService Thread Pool -- 58) IJ000604: Throwable while attempting to get a new connection: null: javax.resource.ResourceException: IJ031084: Unable to create connection
-	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.createLocalManagedConnection(LocalManagedConnectionFactory.java:343)
-	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.getLocalManagedConnection(LocalManagedConnectionFactory.java:350)
-	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.createManagedConnection(LocalManagedConnectionFactory.java:285)
-	at org.jboss.jca.core.connectionmanager.pool.mcp.SemaphoreConcurrentLinkedDequeManagedConnectionPool.createConnectionEventListener(SemaphoreConcurrentLinkedDequeManagedConnectionPool.java:1319)
-	at org.jboss.jca.core.connectionmanager.pool.mcp.SemaphoreConcurrentLinkedDequeManagedConnectionPool.getConnection(SemaphoreConcurrentLinkedDequeManagedConnectionPool.java:496)
-	at org.jboss.jca.core.connectionmanager.pool.AbstractPool.getSimpleConnection(AbstractPool.java:626)
-	at org.jboss.jca.core.connectionmanager.pool.AbstractPool.getConnection(AbstractPool.java:598)
-	at org.jboss.jca.core.connectionmanager.AbstractConnectionManager.getManagedConnection(AbstractConnectionManager.java:590)
-	at org.jboss.jca.core.connectionmanager.tx.TxConnectionManagerImpl.getManagedConnection(TxConnectionManagerImpl.java:429)
-	at org.jboss.jca.core.connectionmanager.AbstractConnectionManager.allocateConnection(AbstractConnectionManager.java:747)
-	at org.jboss.jca.adapters.jdbc.WrapperDataSource.getConnection(WrapperDataSource.java:138)
-	at org.jboss.as.connector.subsystems.datasources.WildFlyDataSource.getConnection(WildFlyDataSource.java:66)
-	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
-	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:180)
-	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68)
-	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35)
-	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:88)
-	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:234)
-	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:208)
-	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:189)
-	at org.hibernate.engine.jdbc.internal.JdbcServicesImpl.configure(JdbcServicesImpl.java:51)
-	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.configureService(StandardServiceRegistryImpl.java:94)
-	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:217)
-	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:189)
-	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.handleTypes(MetadataBuildingProcess.java:352)
-	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:111)
-	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:847)
-	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:874)
-	at org.jboss.as.jpa.hibernate5.TwoPhaseBootstrapImpl.build(TwoPhaseBootstrapImpl.java:44)
-	at org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1$1.run(PersistenceUnitServiceImpl.java:154)
-	at org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1$1.run(PersistenceUnitServiceImpl.java:117)
-	at org.wildfly.security.manager.WildFlySecurityManager.doChecked(WildFlySecurityManager.java:667)
-	at org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1.run(PersistenceUnitServiceImpl.java:182)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:745)
-	at org.jboss.threads.JBossThread.run(JBossThread.java:320)
-Caused by: com.microsoft.sqlserver.jdbc.SQLServerException: Cannot open server 'markit' requested by the login. Client with IP address '167.220.196.113' is not allowed to access the server.  To enable access, use the Windows Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect. ClientConnectionId:768d12a6-805a-4682-bfee-ed7407c3b817
-	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDatabaseError(SQLServerException.java:216)
-	at com.microsoft.sqlserver.jdbc.TDSTokenHandler.onEOF(tdsparser.java:254)
-	at com.microsoft.sqlserver.jdbc.TDSParser.parse(tdsparser.java:84)
-	at com.microsoft.sqlserver.jdbc.SQLServerConnection.sendLogon(SQLServerConnection.java:2908)
-	at com.microsoft.sqlserver.jdbc.SQLServerConnection.logon(SQLServerConnection.java:2234)
-	at com.microsoft.sqlserver.jdbc.SQLServerConnection.access$000(SQLServerConnection.java:41)
-	at com.microsoft.sqlserver.jdbc.SQLServerConnection$LogonCommand.doExecute(SQLServerConnection.java:2220)
-	at com.microsoft.sqlserver.jdbc.TDSCommand.execute(IOBuffer.java:5696)
-	at com.microsoft.sqlserver.jdbc.SQLServerConnection.executeCommand(SQLServerConnection.java:1715)
-	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectHelper(SQLServerConnection.java:1326)
-	at com.microsoft.sqlserver.jdbc.SQLServerConnection.login(SQLServerConnection.java:991)
-	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connect(SQLServerConnection.java:827)
-	at com.microsoft.sqlserver.jdbc.SQLServerDriver.connect(SQLServerDriver.java:1012)
-	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.createLocalManagedConnection(LocalManagedConnectionFactory.java:319)
-	... 36 more
-
-2016-04-04 13:21:14,641 WARN  [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator] (ServerService Thread Pool -- 58) HHH000342: Could not obtain connection to query metadata : javax.resource.ResourceException: IJ000453: Unable to get managed connection for java:/jdbc/managed/demo
-2016-04-04 13:21:14,652 ERROR [org.jboss.msc.service.fail] (ServerService Thread Pool -- 58) MSC000001: Failed to start service jboss.persistenceunit."ROOT.war#demo-unit": org.jboss.msc.service.StartException in service jboss.persistenceunit."ROOT.war#demo-unit": org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
-	at org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1$1.run(PersistenceUnitServiceImpl.java:172)
-	at org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1$1.run(PersistenceUnitServiceImpl.java:117)
-	at org.wildfly.security.manager.WildFlySecurityManager.doChecked(WildFlySecurityManager.java:667)
-	at org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1.run(PersistenceUnitServiceImpl.java:182)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:745)
-	at org.jboss.threads.JBossThread.run(JBossThread.java:320)
-Caused by: org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
-	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:244)
-	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:208)
-	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:189)
-	at org.hibernate.engine.jdbc.internal.JdbcServicesImpl.configure(JdbcServicesImpl.java:51)
-	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.configureService(StandardServiceRegistryImpl.java:94)
-	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:217)
-	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:189)
-	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.handleTypes(MetadataBuildingProcess.java:352)
-	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:111)
-	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:847)
-	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:874)
-	at org.jboss.as.jpa.hibernate5.TwoPhaseBootstrapImpl.build(TwoPhaseBootstrapImpl.java:44)
-	at org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1$1.run(PersistenceUnitServiceImpl.java:154)
-	... 7 more
-Caused by: org.hibernate.HibernateException: Access to DialectResolutionInfo cannot be null when 'hibernate.dialect' not set
-	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.determineDialect(DialectFactoryImpl.java:100)
-	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.buildDialect(DialectFactoryImpl.java:54)
-	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:137)
-	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35)
-	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:88)
-	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:234)
-	... 19 more
-
-2016-04-04 13:21:14,700 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("deploy") failed - address: ([("deployment" => "ROOT.war")]) - failure description: {"WFLYCTL0080: Failed services" => {"jboss.persistenceunit.\"ROOT.war#demo-unit\"" => "org.jboss.msc.service.StartException in service jboss.persistenceunit.\"ROOT.war#demo-unit\": org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
-    Caused by: org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
-    Caused by: org.hibernate.HibernateException: Access to DialectResolutionInfo cannot be null when 'hibernate.dialect' not set"}}
-2016-04-04 13:21:14,775 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "ROOT.war" (runtime-name : "ROOT.war")
-2016-04-04 13:21:14,778 INFO  [org.jboss.as.controller] (Controller Boot Thread) WFLYCTL0183: Service status report
-WFLYCTL0186:   Services which failed to start:      service jboss.persistenceunit."ROOT.war#demo-unit": org.jboss.msc.service.StartException in service jboss.persistenceunit."ROOT.war#demo-unit": org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
-
-2016-04-04 13:21:14,954 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
-2016-04-04 13:21:14,956 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
-2016-04-04 13:21:14,956 ERROR [org.jboss.as] (Controller Boot Thread) WFLYSRV0026: WildFly Full 10.0.0.Final (WildFly Core 2.0.10.Final) started (with errors) in 12358ms - Started 405 of 713 services (38 services failed or missing dependencies, 381 services are lazy, passive or on-demand)
-2016-04-04 13:21:14,997 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 58) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'ROOT.war#demo-unit'
-2016-04-04 13:21:15,023 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0019: Host default-host stopping
-2016-04-04 13:21:15,033 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 58) WFLYCLINF0003: Stopped client-mappings cache from ejb container
-2016-04-04 13:21:15,072 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0028: Stopped deployment ROOT.war (runtime-name: ROOT.war) in 85ms
-2016-04-04 13:21:15,138 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0009: Undeployed "ROOT.war" (runtime-name: "ROOT.war")
-2016-04-04 13:21:15,143 INFO  [org.jboss.as.controller] (DeploymentScanner-threads - 1) WFLYCTL0183: Service status report
+2016-04-05 15:27:55,874 DEBUG [org.jboss.as.config] (MSC service thread 1-7) VM Arguments: -Dprogram.name=JBossTools: WildFly  8.x -Xms64m -Xmx512m -XX:MaxPermSize=256m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=C:/Wildfly/wildfly-10.0.0.Final/standalone/log/boot.log -Dlogging.configuration=file:/C:/Wildfly/wildfly-10.0.0.Final/standalone/configuration/logging.properties -Djboss.home.dir=C:/Wildfly/wildfly-10.0.0.Final -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dredis_host=ja-redis.northeurope.cloudapp.azure.com -Dredis_port=6379 -Dredis_password= -Djboss.http.port=8080 -Dfile.encoding=Cp1252 
+2016-04-05 15:28:00,484 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found ROOT.war in deployment directory. To trigger deployment create a file called ROOT.war.dodeploy
+2016-04-05 15:28:00,515 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2016-04-05 15:28:00,551 INFO  [org.xnio] (MSC service thread 1-6) XNIO version 3.3.4.Final
+2016-04-05 15:28:00,561 INFO  [org.xnio.nio] (MSC service thread 1-6) XNIO NIO Implementation Version 3.3.4.Final
+2016-04-05 15:28:00,613 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 54) WFLYTX0013: Node identifier property is set to the default value. Please make sure it is unique.
+2016-04-05 15:28:00,619 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 46) WFLYNAM0001: Activating Naming Subsystem
+2016-04-05 15:28:00,623 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 56) WFLYWS0002: Activating WebServices Extension
+2016-04-05 15:28:00,635 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 44) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2016-04-05 15:28:00,658 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 38) WFLYCLINF0001: Activating Infinispan subsystem.
+2016-04-05 15:28:00,665 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 53) WFLYSEC0002: Activating Security Subsystem
+2016-04-05 15:28:00,689 INFO  [org.jboss.as.security] (MSC service thread 1-8) WFLYSEC0001: Current PicketBox version=4.9.4.Final
+2016-04-05 15:28:00,723 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 37) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+2016-04-05 15:28:00,758 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0003: Undertow 1.3.15.Final starting
+2016-04-05 15:28:00,763 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0003: Undertow 1.3.15.Final starting
+2016-04-05 15:28:00,971 INFO  [org.jboss.as.connector] (MSC service thread 1-4) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.3.2.Final)
+2016-04-05 15:28:01,001 INFO  [org.jboss.as.naming] (MSC service thread 1-7) WFLYNAM0003: Starting Naming Service
+2016-04-05 15:28:01,020 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-8) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2016-04-05 15:28:01,041 INFO  [org.jboss.remoting] (MSC service thread 1-6) JBoss Remoting version 4.0.18.Final
+2016-04-05 15:28:01,343 INFO  [org.jboss.as.ejb3] (MSC service thread 1-8) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 16 (per class), which is derived from the number of CPUs on this host.
+2016-04-05 15:28:01,343 INFO  [org.jboss.as.ejb3] (MSC service thread 1-4) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 64 (per class), which is derived from thread worker pool sizing.
+2016-04-05 15:28:01,360 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2016-04-05 15:28:01,363 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0018: Started Driver service with driver-name = h2
+2016-04-05 15:28:01,509 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0004: Deploying JDBC-compliant driver class com.microsoft.sqlserver.jdbc.SQLServerDriver (version 4.0)
+2016-04-05 15:28:01,512 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0018: Started Driver service with driver-name = sqlserver
+2016-04-05 15:28:01,516 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0012: Started server default-server.
+2016-04-05 15:28:01,531 ERROR [org.jboss.as.controller.management-operation] (ServerService Thread Pool -- 33) WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "datasources"),
+    ("data-source" => "managedDemo")
+]) - failure description: "WFLYCTL0211: Cannot resolve expression '${env.SQLAZURECONNSTR_DEMO}'"
+2016-04-05 15:28:01,532 ERROR [org.jboss.as.controller.management-operation] (ServerService Thread Pool -- 33) WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "datasources"),
+    ("data-source" => "unamanagedDemo")
+]) - failure description: "WFLYCTL0211: Cannot resolve expression '${env.SQLAZURECONNSTR_DEMO}'"
+2016-04-05 15:28:01,802 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2016-04-05 15:28:02,344 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-3) WFLYDS0013: Started FileSystemDeploymentService for directory C:\Wildfly\wildfly-10.0.0.Final\standalone\deployments
+2016-04-05 15:28:02,348 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2016-04-05 15:28:02,391 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0027: Starting deployment of "ROOT.war" (runtime-name: "ROOT.war")
+2016-04-05 15:28:02,525 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-4) ISPN000128: Infinispan version: Infinispan 'Mahou' 8.1.0.Final
+2016-04-05 15:28:04,309 INFO  [org.jboss.ws.common.management] (MSC service thread 1-6) JBWS022052: Starting JBossWS 5.1.3.Final (Apache CXF 3.1.4) 
+2016-04-05 15:28:04,573 INFO  [org.jboss.as.jpa] (MSC service thread 1-5) WFLYJPA0002: Read persistence.xml for demo-unit
+2016-04-05 15:28:05,472 WARN  [org.jboss.as.ee] (MSC service thread 1-5) WFLYEE0007: Not installing optional component org.springframework.http.server.ServletServerHttpAsyncRequestControl due to an exception (enable DEBUG log level to see the cause)
+2016-04-05 15:28:05,475 WARN  [org.jboss.as.ee] (MSC service thread 1-5) WFLYEE0007: Not installing optional component org.springframework.web.context.request.async.StandardServletAsyncWebRequest due to an exception (enable DEBUG log level to see the cause)
+2016-04-05 15:28:05,757 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0018: Host default-host starting
+2016-04-05 15:28:05,815 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("deploy") failed - address: ([("deployment" => "ROOT.war")]) - failure description: {"WFLYCTL0180: Services with missing/unavailable dependencies" => [
+    "jboss.persistenceunit.\"ROOT.war#demo-unit\".__FIRST_PHASE__ is missing [jboss.naming.context.java.jdbc.unmanaged.demo, jboss.naming.context.java.jdbc.managed.demo]",
+    "jboss.persistenceunit.\"ROOT.war#demo-unit\" is missing [jboss.naming.context.java.jdbc.unmanaged.demo, jboss.naming.context.java.jdbc.managed.demo]"
+]}
+2016-04-05 15:28:05,817 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "datasources"),
+    ("data-source" => "managedDemo")
+]) - failure description: "WFLYCTL0211: Cannot resolve expression '${env.SQLAZURECONNSTR_DEMO}'"
+2016-04-05 15:28:05,817 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "datasources"),
+    ("data-source" => "unamanagedDemo")
+]) - failure description: "WFLYCTL0211: Cannot resolve expression '${env.SQLAZURECONNSTR_DEMO}'"
+2016-04-05 15:28:05,904 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "ROOT.war" (runtime-name : "ROOT.war")
+2016-04-05 15:28:05,907 INFO  [org.jboss.as.controller] (Controller Boot Thread) WFLYCTL0183: Service status report
 WFLYCTL0184:    New missing/unsatisfied dependencies:
-      service jboss.deployment.unit."ROOT.war".WeldBootstrapService (missing) dependents: [service jboss.deployment.unit."ROOT.war".WeldStartService, service jboss.deployment.unit."ROOT.war".component."org.springframework.web.context.ContextLoaderListener".WeldInstantiator, service jboss.deployment.unit."ROOT.war".component."com.microsoft.azure.filter.B2CAuthenticationFilter".WeldInstantiator, service jboss.deployment.unit."ROOT.war".component."org.jboss.weld.servlet.WeldInitialListener".WeldInstantiator, WFLYCTL0208: ... and 14 more ] 
-      service jboss.deployment.unit."ROOT.war".WeldStartService (missing) dependents: [service jboss.deployment.unit."ROOT.war".component."org.springframework.web.context.ContextLoaderListener".WeldInstantiator, service jboss.deployment.unit."ROOT.war".component."com.microsoft.azure.filter.B2CAuthenticationFilter".WeldInstantiator, service jboss.deployment.unit."ROOT.war".component."org.jboss.weld.servlet.WeldInitialListener".WeldInstantiator, service jboss.deployment.unit."ROOT.war".component."org.jboss.weld.servlet.WeldTerminalListener".WeldInstantiator, WFLYCTL0208: ... and 15 more ] 
-      service jboss.deployment.unit."ROOT.war".component.SimpleStateless.CREATE (missing) dependents: [service jboss.deployment.unit."ROOT.war".component.SimpleStateless.START] 
-      service jboss.deployment.unit."ROOT.war".component.SimpleStateless.JndiBindingsService (missing) dependents: [service jboss.deployment.unit."ROOT.war".jndiDependencyService] 
-      service jboss.deployment.unit."ROOT.war".component.SimpleStateless.START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./, service jboss.undertow.deployment.default-server.default-host./.UndertowDeploymentInfoService, service jboss.deployment.unit."ROOT.war".moduleDeploymentRuntimeInformationStart, service jboss.deployment.unit."ROOT.war".deploymentCompleteService] 
-      service jboss.deployment.unit."ROOT.war".component.SimpleStateless.VIEW."com.microsoft.azure.javaee.SimpleStateless".LOCAL (missing) dependents: [service jboss.deployment.unit."ROOT.war".component.SimpleStateless.START] 
-      service jboss.deployment.unit."ROOT.war".component.SimpleStateless.WeldInstantiator (missing) dependents: [service jboss.deployment.unit."ROOT.war".component.SimpleStateless.START] 
-      service jboss.deployment.unit."ROOT.war".component.SimpleStateless.WeldInterceptorBindingsService (missing) dependents: [service jboss.deployment.unit."ROOT.war".component.SimpleStateless.WeldInstantiator] 
-      service jboss.deployment.unit."ROOT.war".component.SimpleStateless.ejb.non-functional-timerservice (missing) dependents: [service jboss.deployment.unit."ROOT.war".component.SimpleStateless.START] 
-      service jboss.deployment.unit."ROOT.war".component."com.microsoft.azure.filter.B2CAuthenticationFilter".CREATE (missing) dependents: [service jboss.deployment.unit."ROOT.war".component."com.microsoft.azure.filter.B2CAuthenticationFilter".START] 
-      service jboss.deployment.unit."ROOT.war".component."com.microsoft.azure.filter.B2CAuthenticationFilter".JndiBindingsService (missing) dependents: [service jboss.deployment.unit."ROOT.war".jndiDependencyService] 
-      service jboss.deployment.unit."ROOT.war".component."com.microsoft.azure.filter.B2CAuthenticationFilter".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./, service jboss.undertow.deployment.default-server.default-host./.UndertowDeploymentInfoService, service jboss.deployment.unit."ROOT.war".deploymentCompleteService] 
-      service jboss.deployment.unit."ROOT.war".component."com.microsoft.azure.filter.B2CAuthenticationFilter".WeldInstantiator (missing) dependents: [service jboss.deployment.unit."ROOT.war".component."com.microsoft.azure.filter.B2CAuthenticationFilter".START] 
+      service jboss.naming.context.java.jdbc.managed.demo (missing) dependents: [service jboss.persistenceunit."ROOT.war#demo-unit", service jboss.persistenceunit."ROOT.war#demo-unit".__FIRST_PHASE__] 
+      service jboss.naming.context.java.jdbc.unmanaged.demo (missing) dependents: [service jboss.persistenceunit."ROOT.war#demo-unit", service jboss.persistenceunit."ROOT.war#demo-unit".__FIRST_PHASE__] 
+
+2016-04-05 15:28:06,076 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2016-04-05 15:28:06,076 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2016-04-05 15:28:06,079 ERROR [org.jboss.as] (Controller Boot Thread) WFLYSRV0026: WildFly Full 10.0.0.Final (WildFly Core 2.0.10.Final) started (with errors) in 11689ms - Started 333 of 640 services (12 services failed or missing dependencies, 379 services are lazy, passive or on-demand)
+2016-04-05 15:28:06,121 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0019: Host default-host stopping
+2016-04-05 15:28:06,144 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-3) HV000001: Hibernate Validator 5.2.3.Final
+2016-04-05 15:28:06,269 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0028: Stopped deployment ROOT.war (runtime-name: ROOT.war) in 159ms
+2016-04-05 15:28:06,342 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0009: Undeployed "ROOT.war" (runtime-name: "ROOT.war")
+2016-04-05 15:28:06,345 INFO  [org.jboss.as.controller] (DeploymentScanner-threads - 1) WFLYCTL0183: Service status report
+WFLYCTL0184:    New missing/unsatisfied dependencies:
       service jboss.deployment.unit."ROOT.war".component."com.sun.faces.config.ConfigureListener".CREATE (missing) dependents: [service jboss.deployment.unit."ROOT.war".component."com.sun.faces.config.ConfigureListener".START] 
-      service jboss.deployment.unit."ROOT.war".component."com.sun.faces.config.ConfigureListener".JndiBindingsService (missing) dependents: [service jboss.deployment.unit."ROOT.war".jndiDependencyService] 
       service jboss.deployment.unit."ROOT.war".component."com.sun.faces.config.ConfigureListener".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./, service jboss.undertow.deployment.default-server.default-host./.UndertowDeploymentInfoService, service jboss.deployment.unit."ROOT.war".deploymentCompleteService] 
-      service jboss.deployment.unit."ROOT.war".component."com.sun.faces.config.ConfigureListener".WeldInstantiator (missing) dependents: [service jboss.deployment.unit."ROOT.war".component."com.sun.faces.config.ConfigureListener".START] 
       service jboss.deployment.unit."ROOT.war".component."javax.faces.webapp.FacesServlet".CREATE (missing) dependents: [service jboss.deployment.unit."ROOT.war".component."javax.faces.webapp.FacesServlet".START] 
-      service jboss.deployment.unit."ROOT.war".component."javax.faces.webapp.FacesServlet".JndiBindingsService (missing) dependents: [service jboss.deployment.unit."ROOT.war".jndiDependencyService] 
       service jboss.deployment.unit."ROOT.war".component."javax.faces.webapp.FacesServlet".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./, service jboss.undertow.deployment.default-server.default-host./.UndertowDeploymentInfoService, service jboss.deployment.unit."ROOT.war".deploymentCompleteService] 
-      service jboss.deployment.unit."ROOT.war".component."javax.faces.webapp.FacesServlet".WeldInstantiator (missing) dependents: [service jboss.deployment.unit."ROOT.war".component."javax.faces.webapp.FacesServlet".START] 
       service jboss.deployment.unit."ROOT.war".component."javax.faces.webapp.FacetTag".CREATE (missing) dependents: [service jboss.deployment.unit."ROOT.war".component."javax.faces.webapp.FacetTag".START] 
-      service jboss.deployment.unit."ROOT.war".component."javax.faces.webapp.FacetTag".JndiBindingsService (missing) dependents: [service jboss.deployment.unit."ROOT.war".jndiDependencyService] 
       service jboss.deployment.unit."ROOT.war".component."javax.faces.webapp.FacetTag".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./, service jboss.undertow.deployment.default-server.default-host./.UndertowDeploymentInfoService, service jboss.deployment.unit."ROOT.war".deploymentCompleteService] 
-      service jboss.deployment.unit."ROOT.war".component."javax.faces.webapp.FacetTag".WeldInstantiator (missing) dependents: [service jboss.deployment.unit."ROOT.war".component."javax.faces.webapp.FacetTag".START] 
       service jboss.deployment.unit."ROOT.war".component."javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV".CREATE (missing) dependents: [service jboss.deployment.unit."ROOT.war".component."javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV".START] 
-      service jboss.deployment.unit."ROOT.war".component."javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV".JndiBindingsService (missing) dependents: [service jboss.deployment.unit."ROOT.war".jndiDependencyService] 
       service jboss.deployment.unit."ROOT.war".component."javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./, service jboss.undertow.deployment.default-server.default-host./.UndertowDeploymentInfoService, service jboss.deployment.unit."ROOT.war".deploymentCompleteService] 
-      service jboss.deployment.unit."ROOT.war".component."javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV".WeldInstantiator (missing) dependents: [service jboss.deployment.unit."ROOT.war".component."javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV".START] 
       service jboss.deployment.unit."ROOT.war".component."javax.servlet.jsp.jstl.tlv.ScriptFreeTLV".CREATE (missing) dependents: [service jboss.deployment.unit."ROOT.war".component."javax.servlet.jsp.jstl.tlv.ScriptFreeTLV".START] 
-      service jboss.deployment.unit."ROOT.war".component."javax.servlet.jsp.jstl.tlv.ScriptFreeTLV".JndiBindingsService (missing) dependents: [service jboss.deployment.unit."ROOT.war".jndiDependencyService] 
       service jboss.deployment.unit."ROOT.war".component."javax.servlet.jsp.jstl.tlv.ScriptFreeTLV".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./, service jboss.undertow.deployment.default-server.default-host./.UndertowDeploymentInfoService, service jboss.deployment.unit."ROOT.war".deploymentCompleteService] 
-      service jboss.deployment.unit."ROOT.war".component."javax.servlet.jsp.jstl.tlv.ScriptFreeTLV".WeldInstantiator (missing) dependents: [service jboss.deployment.unit."ROOT.war".component."javax.servlet.jsp.jstl.tlv.ScriptFreeTLV".START] 
-      service jboss.deployment.unit."ROOT.war".component."managed-bean.com.microsoft.azure.javaee.HomeBean".CREATE (missing) dependents: [service jboss.deployment.unit."ROOT.war".component."managed-bean.com.microsoft.azure.javaee.HomeBean".START] 
-      service jboss.deployment.unit."ROOT.war".component."managed-bean.com.microsoft.azure.javaee.HomeBean".JndiBindingsService (missing) dependents: [service jboss.deployment.unit."ROOT.war".jndiDependencyService] 
-      service jboss.deployment.unit."ROOT.war".component."managed-bean.com.microsoft.azure.javaee.HomeBean".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./, service jboss.undertow.deployment.default-server.default-host./.UndertowDeploymentInfoService, service jboss.deployment.unit."ROOT.war".deploymentCompleteService] 
-      service jboss.deployment.unit."ROOT.war".component."managed-bean.com.microsoft.azure.javaee.HomeBean".WeldInstantiator (missing) dependents: [service jboss.deployment.unit."ROOT.war".component."managed-bean.com.microsoft.azure.javaee.HomeBean".START] 
-      service jboss.deployment.unit."ROOT.war".component."org.jboss.weld.servlet.WeldInitialListener".CREATE (missing) dependents: [service jboss.deployment.unit."ROOT.war".component."org.jboss.weld.servlet.WeldInitialListener".START] 
-      service jboss.deployment.unit."ROOT.war".component."org.jboss.weld.servlet.WeldInitialListener".JndiBindingsService (missing) dependents: [service jboss.deployment.unit."ROOT.war".jndiDependencyService] 
-      service jboss.deployment.unit."ROOT.war".component."org.jboss.weld.servlet.WeldInitialListener".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./, service jboss.undertow.deployment.default-server.default-host./.UndertowDeploymentInfoService, service jboss.deployment.unit."ROOT.war".deploymentCompleteService] 
-      service jboss.deployment.unit."ROOT.war".component."org.jboss.weld.servlet.WeldInitialListener".WeldInstantiator (missing) dependents: [service jboss.deployment.unit."ROOT.war".component."org.jboss.weld.servlet.WeldInitialListener".START] 
-      service jboss.deployment.unit."ROOT.war".component."org.jboss.weld.servlet.WeldTerminalListener".CREATE (missing) dependents: [service jboss.deployment.unit."ROOT.war".component."org.jboss.weld.servlet.WeldTerminalListener".START] 
-      service jboss.deployment.unit."ROOT.war".component."org.jboss.weld.servlet.WeldTerminalListener".JndiBindingsService (missing) dependents: [service jboss.deployment.unit."ROOT.war".jndiDependencyService] 
-      service jboss.deployment.unit."ROOT.war".component."org.jboss.weld.servlet.WeldTerminalListener".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./, service jboss.undertow.deployment.default-server.default-host./.UndertowDeploymentInfoService, service jboss.deployment.unit."ROOT.war".deploymentCompleteService] 
-      service jboss.deployment.unit."ROOT.war".component."org.jboss.weld.servlet.WeldTerminalListener".WeldInstantiator (missing) dependents: [service jboss.deployment.unit."ROOT.war".component."org.jboss.weld.servlet.WeldTerminalListener".START] 
-      service jboss.deployment.unit."ROOT.war".component."org.springframework.http.server.ServletServerHttpAsyncRequestControl".CREATE (missing) dependents: [service jboss.deployment.unit."ROOT.war".component."org.springframework.http.server.ServletServerHttpAsyncRequestControl".START] 
-      service jboss.deployment.unit."ROOT.war".component."org.springframework.http.server.ServletServerHttpAsyncRequestControl".JndiBindingsService (missing) dependents: [service jboss.deployment.unit."ROOT.war".jndiDependencyService] 
-      service jboss.deployment.unit."ROOT.war".component."org.springframework.http.server.ServletServerHttpAsyncRequestControl".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./, service jboss.undertow.deployment.default-server.default-host./.UndertowDeploymentInfoService, service jboss.deployment.unit."ROOT.war".deploymentCompleteService] 
-      service jboss.deployment.unit."ROOT.war".component."org.springframework.http.server.ServletServerHttpAsyncRequestControl".WeldInstantiator (missing) dependents: [service jboss.deployment.unit."ROOT.war".component."org.springframework.http.server.ServletServerHttpAsyncRequestControl".START] 
       service jboss.deployment.unit."ROOT.war".component."org.springframework.web.context.ContextLoaderListener".CREATE (missing) dependents: [service jboss.deployment.unit."ROOT.war".component."org.springframework.web.context.ContextLoaderListener".START] 
-      service jboss.deployment.unit."ROOT.war".component."org.springframework.web.context.ContextLoaderListener".JndiBindingsService (missing) dependents: [service jboss.deployment.unit."ROOT.war".jndiDependencyService] 
       service jboss.deployment.unit."ROOT.war".component."org.springframework.web.context.ContextLoaderListener".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./, service jboss.undertow.deployment.default-server.default-host./.UndertowDeploymentInfoService, service jboss.deployment.unit."ROOT.war".deploymentCompleteService] 
-      service jboss.deployment.unit."ROOT.war".component."org.springframework.web.context.ContextLoaderListener".WeldInstantiator (missing) dependents: [service jboss.deployment.unit."ROOT.war".component."org.springframework.web.context.ContextLoaderListener".START] 
-      service jboss.deployment.unit."ROOT.war".component."org.springframework.web.context.request.async.StandardServletAsyncWebRequest".CREATE (missing) dependents: [service jboss.deployment.unit."ROOT.war".component."org.springframework.web.context.request.async.StandardServletAsyncWebRequest".START] 
-      service jboss.deployment.unit."ROOT.war".component."org.springframework.web.context.request.async.StandardServletAsyncWebRequest".JndiBindingsService (missing) dependents: [service jboss.deployment.unit."ROOT.war".jndiDependencyService] 
-      service jboss.deployment.unit."ROOT.war".component."org.springframework.web.context.request.async.StandardServletAsyncWebRequest".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./, service jboss.undertow.deployment.default-server.default-host./.UndertowDeploymentInfoService, service jboss.deployment.unit."ROOT.war".deploymentCompleteService] 
-      service jboss.deployment.unit."ROOT.war".component."org.springframework.web.context.request.async.StandardServletAsyncWebRequest".WeldInstantiator (missing) dependents: [service jboss.deployment.unit."ROOT.war".component."org.springframework.web.context.request.async.StandardServletAsyncWebRequest".START] 
       service jboss.deployment.unit."ROOT.war".component."org.springframework.web.filter.DelegatingFilterProxy".CREATE (missing) dependents: [service jboss.deployment.unit."ROOT.war".component."org.springframework.web.filter.DelegatingFilterProxy".START] 
-      service jboss.deployment.unit."ROOT.war".component."org.springframework.web.filter.DelegatingFilterProxy".JndiBindingsService (missing) dependents: [service jboss.deployment.unit."ROOT.war".jndiDependencyService] 
       service jboss.deployment.unit."ROOT.war".component."org.springframework.web.filter.DelegatingFilterProxy".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./, service jboss.undertow.deployment.default-server.default-host./.UndertowDeploymentInfoService, service jboss.deployment.unit."ROOT.war".deploymentCompleteService] 
-      service jboss.deployment.unit."ROOT.war".component."org.springframework.web.filter.DelegatingFilterProxy".WeldInstantiator (missing) dependents: [service jboss.deployment.unit."ROOT.war".component."org.springframework.web.filter.DelegatingFilterProxy".START] 
       service jboss.deployment.unit."ROOT.war".ee.ComponentRegistry (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./.UndertowDeploymentInfoService] 
-      service jboss.deployment.unit."ROOT.war".jndiDependencyService (missing) dependents: [service jboss.deployment.unit."ROOT.war".component."com.sun.faces.config.ConfigureListener".START, service jboss.deployment.unit."ROOT.war".component."org.jboss.weld.servlet.WeldTerminalListener".START, service jboss.deployment.unit."ROOT.war".WeldStartService, service jboss.deployment.unit."ROOT.war".component."javax.servlet.jsp.jstl.tlv.ScriptFreeTLV".START, WFLYCTL0208: ... and 12 more ] 
-      service jboss.deployment.unit."ROOT.war".moduleDeploymentRuntimeInformation (missing) dependents: [service jboss.deployment.unit."ROOT.war".moduleDeploymentRuntimeInformationStart, service jboss.deployment.unit."ROOT.war".component.SimpleStateless.START] 
-      service jboss.naming.context.java.app.ROOT.env (missing) dependents: [service jboss.deployment.unit."ROOT.war".jndiDependencyService] 
-      service jboss.naming.context.java.module.ROOT.ROOT.BeanManager (missing) dependents: [service jboss.deployment.unit."ROOT.war".jndiDependencyService] 
-      service jboss.naming.context.java.module.ROOT.ROOT.DefaultContextService (missing) dependents: [service jboss.deployment.unit."ROOT.war".jndiDependencyService] 
-      service jboss.naming.context.java.module.ROOT.ROOT.DefaultDataSource (missing) dependents: [service jboss.deployment.unit."ROOT.war".jndiDependencyService] 
-      service jboss.naming.context.java.module.ROOT.ROOT.DefaultManagedExecutorService (missing) dependents: [service jboss.deployment.unit."ROOT.war".jndiDependencyService] 
-      service jboss.naming.context.java.module.ROOT.ROOT.DefaultManagedScheduledExecutorService (missing) dependents: [service jboss.deployment.unit."ROOT.war".jndiDependencyService] 
-      service jboss.naming.context.java.module.ROOT.ROOT.DefaultManagedThreadFactory (missing) dependents: [service jboss.deployment.unit."ROOT.war".jndiDependencyService] 
-      service jboss.naming.context.java.module.ROOT.ROOT.EJBContext (missing) dependents: [service jboss.deployment.unit."ROOT.war".jndiDependencyService] 
-      service jboss.naming.context.java.module.ROOT.ROOT.TimerService (missing) dependents: [service jboss.deployment.unit."ROOT.war".jndiDependencyService] 
-      service jboss.naming.context.java.module.ROOT.ROOT.TransactionSynchronizationRegistry (missing) dependents: [service jboss.deployment.unit."ROOT.war".jndiDependencyService] 
-      service jboss.naming.context.java.module.ROOT.ROOT.UserTransaction (missing) dependents: [service jboss.deployment.unit."ROOT.war".jndiDependencyService] 
-      service jboss.naming.context.java.module.ROOT.ROOT.env (missing) dependents: [service jboss.deployment.unit."ROOT.war".jndiDependencyService] 
-      service jboss.naming.context.java.module.ROOT.ROOT.env."com.microsoft.azure.javaee.HomeBean".simpleStateless (missing) dependents: [service jboss.deployment.unit."ROOT.war".jndiDependencyService, service jboss.deployment.unit."ROOT.war".component."managed-bean.com.microsoft.azure.javaee.HomeBean".START] 
-      service jboss.naming.context.java.module.ROOT.ROOT.env."com.microsoft.azure.javaee.SimpleStateless".entityManager (missing) dependents: [service jboss.deployment.unit."ROOT.war".jndiDependencyService, service jboss.deployment.unit."ROOT.war".component.SimpleStateless.START] 
-      service jboss.persistenceunit."ROOT.war#demo-unit" (missing) dependents: [service jboss.deployment.unit."ROOT.war".component."com.sun.faces.config.ConfigureListener".START, service jboss.deployment.unit."ROOT.war".WeldStartService, service jboss.deployment.unit."ROOT.war".component."javax.servlet.jsp.jstl.tlv.ScriptFreeTLV".START, service jboss.undertow.deployment.default-server.default-host./, WFLYCTL0208: ... and 13 more ] 
+      service jboss.deployment.unit."ROOT.war".jndiDependencyService (missing) dependents: [service jboss.deployment.unit."ROOT.war".component."com.sun.faces.config.ConfigureListener".START, service jboss.deployment.unit."ROOT.war".component."javax.servlet.jsp.jstl.tlv.ScriptFreeTLV".START, service jboss.deployment.unit."ROOT.war".component."javax.faces.webapp.FacesServlet".START, service jboss.deployment.unit."ROOT.war".component."org.springframework.web.filter.DelegatingFilterProxy".START, WFLYCTL0208: ... and 4 more ] 
+      service jboss.persistenceunit."ROOT.war#demo-unit" (missing) dependents: [service jboss.deployment.unit."ROOT.war".component."com.sun.faces.config.ConfigureListener".START, service jboss.deployment.unit."ROOT.war".component."javax.servlet.jsp.jstl.tlv.ScriptFreeTLV".START, service jboss.deployment.unit."ROOT.war".component."javax.faces.webapp.FacesServlet".START, service jboss.deployment.unit."ROOT.war".component."org.springframework.web.filter.DelegatingFilterProxy".START, WFLYCTL0208: ... and 7 more ] 
       service jboss.undertow.deployment.default-server.default-host./ (missing) dependents: [service jboss.deployment.unit."ROOT.war".deploymentCompleteService] 
       service jboss.undertow.deployment.default-server.default-host./.UndertowDeploymentInfoService (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./] 
       service jboss.undertow.deployment.default-server.default-host./.codec (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./.UndertowDeploymentInfoService] 
       service jboss.undertow.deployment.default-server.default-host./.session (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./.UndertowDeploymentInfoService] 
       service org.wildfly.request-controller.control-point."ROOT.war".undertow (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./.UndertowDeploymentInfoService] 
-WFLYCTL0186:   Services which failed to start:      service jboss.persistenceunit."ROOT.war#demo-unit"
 
-2016-04-04 13:21:18,415 INFO  [org.jboss.as.server] (management-handler-thread - 3) WFLYSRV0211: Suspending server with 0ms timeout.
-2016-04-04 13:21:18,419 INFO  [org.jboss.as.server] (Thread-2) WFLYSRV0220: Server shutdown has been requested.
-2016-04-04 13:21:18,428 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0010: Unbound data source [java:/jdbc/managed/demo]
-2016-04-04 13:21:18,437 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
-2016-04-04 13:21:18,446 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0010: Unbound data source [java:/jdbc/unmanaged/demo]
-2016-04-04 13:21:18,468 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0008: Undertow HTTP listener default suspending
-2016-04-04 13:21:18,477 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0019: Stopped Driver service with driver-name = sqlserver
-2016-04-04 13:21:18,477 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0019: Stopped Driver service with driver-name = h2
-2016-04-04 13:21:18,478 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 127.0.0.1:8080
-2016-04-04 13:21:18,486 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0004: Undertow 1.3.15.Final stopping
-2016-04-04 13:21:18,504 INFO  [org.jboss.as] (MSC service thread 1-6) WFLYSRV0050: WildFly Full 10.0.0.Final (WildFly Core 2.0.10.Final) stopped in 67ms
+2016-04-05 15:28:10,966 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found ROOT.war in deployment directory. To trigger deployment create a file called ROOT.war.dodeploy
+2016-04-05 15:37:41,410 INFO  [org.jboss.as.server] (management-handler-thread - 6) WFLYSRV0211: Suspending server with 0ms timeout.
+2016-04-05 15:37:41,413 INFO  [org.jboss.as.server] (Thread-2) WFLYSRV0220: Server shutdown has been requested.
+2016-04-05 15:37:41,452 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2016-04-05 15:37:41,479 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0019: Stopped Driver service with driver-name = sqlserver
+2016-04-05 15:37:41,596 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0008: Undertow HTTP listener default suspending
+2016-04-05 15:37:41,600 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 127.0.0.1:8080
+2016-04-05 15:37:41,611 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2016-04-05 15:37:41,615 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0004: Undertow 1.3.15.Final stopping
+2016-04-05 15:37:41,669 INFO  [org.jboss.as] (MSC service thread 1-6) WFLYSRV0050: WildFly Full 10.0.0.Final (WildFly Core 2.0.10.Final) stopped in 236ms

@@ -1,0 +1,4 @@
+"{\"WFLYCTL0180: Services with missing/unavailable dependencies\" => [
+    \"jboss.persistenceunit.\\\"ROOT.war#demo-unit\\\".__FIRST_PHASE__ is missing [jboss.naming.context.java.jdbc.unmanaged.demo, jboss.naming.context.java.jdbc.managed.demo]\",
+    \"jboss.persistenceunit.\\\"ROOT.war#demo-unit\\\" is missing [jboss.naming.context.java.jdbc.unmanaged.demo, jboss.naming.context.java.jdbc.managed.demo]\"
+]}"

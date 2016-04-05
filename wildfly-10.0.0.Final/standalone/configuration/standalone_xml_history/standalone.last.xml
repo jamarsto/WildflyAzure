@@ -142,19 +142,19 @@
         <subsystem xmlns="urn:jboss:domain:datasources:4.0">
             <datasources>
                 <datasource jta="true" jndi-name="java:/jdbc/managed/demo" pool-name="managedDemo" enabled="true" use-java-context="true">
-                    <connection-url>${env.jdbc_connectionString}</connection-url>
+                    <connection-url>${env.SQLAZURECONNSTR_DEMO}</connection-url>
                     <driver>sqlserver</driver>
                     <security>
-                        <user-name>${env.jdbc_username}</user-name>
-                        <password>${env.jdbc_password}</password>
+                        <user-name>${env.SQLAZURECONNSTR_DEMO_USER}</user-name>
+                        <password>${env.SQLAZURECONNSTR_DEMO_PASSWORD}</password>
                     </security>
                 </datasource>
                 <datasource jta="false" jndi-name="java:/jdbc/unmanaged/demo" pool-name="unamanagedDemo" enabled="true" use-java-context="true">
-                    <connection-url>${env.jdbc_connectionString}</connection-url>
+                    <connection-url>${env.SQLAZURECONNSTR_DEMO}</connection-url>
                     <driver>sqlserver</driver>
                     <security>
-                        <user-name>${env.jdbc_username}</user-name>
-                        <password>${env.jdbc_password}</password>
+                        <user-name>${env.SQLAZURECONNSTR_DEMO_USER}</user-name>
+                        <password>${env.SQLAZURECONNSTR_DEMO_PASSWORD}</password>
                     </security>
                 </datasource>
                 <datasource jndi-name="java:jboss/datasources/ExampleDS" pool-name="ExampleDS" enabled="true" use-java-context="true">

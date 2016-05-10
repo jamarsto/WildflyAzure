@@ -1,6 +1,6 @@
-#AzureJavaEE
+#WildflyAzure
 
-The AzureJavaEE Project was setup to provide information on running real Java workloads in the Azure WebApp (Paas) environment.  It addresses specifically the following issues:
+The WildflyAzure Project was setup to provide information on running real Java workloads in the Azure WebApp (Paas) environment.  It addresses specifically the following issues:
 * Enabling continuous deployment to install Wildfly, allowing the use of the full JavaEE stack
 * Enabling continuous deployment to update the Wildfly configuration files, allowing the use of container managed resources such as JDBC connection pools
 * Enabling continuous deployment to place jar files in the Wilfly lib directory, allowing the use of container managed resources such as JDBC connection pools

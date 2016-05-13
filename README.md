@@ -22,5 +22,11 @@ Configuration of the Spring Redis Cache Session Manager Filter is picked up from
 * **REDIS_PORT** (The port the Redis Server is listening on)
 * **REDIS_PASSWORD** (The password used to access the Redis Server)
 
-You will need to configure a JTA and a non-JTA data source for the application.
+You will need to configure a JTA and a non-JTA data source for the application.  Configuration picked up from system environment variables:
+* **SQLAZURECONNSTR_DEMO** (The SQL Server JDBC connection string)
+* **SQLAZURECONNSTR_DEMO_USER** (The Username used to access the database)
+* **SQLAZURECONNSTR_DEMO_PASSWORD** (The Password used to access the database)
+
+In Azure Web Applications the JDBC configuration above are created as connection strings rather than simple application settings, so when creating them remove **SQLAZURECONNSTR_** from the front of the name, as this is automatically prefixed to the name 
+
 You will need to create a table called Movie to match the Movie class and populate a few rows with test data

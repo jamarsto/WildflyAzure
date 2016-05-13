@@ -22,7 +22,7 @@ Configuration of the Spring Redis Cache Session Manager Filter is picked up from
 * **REDIS_PORT** (The port the Redis Server is listening on)
 * **REDIS_PASSWORD** (The password used to access the Redis Server)
 
-You will need to configure a JTA and a non-JTA data source for the application.  Configuration picked up from system environment variables:
+Configuration of the JDBC data sources is picked up from system environment variables:
 * **SQLAZURECONNSTR_DEMO** (The SQL Server JDBC connection string)
 * **SQLAZURECONNSTR_DEMO_USER** (The Username used to access the database)
 * **SQLAZURECONNSTR_DEMO_PASSWORD** (The Password used to access the database)
